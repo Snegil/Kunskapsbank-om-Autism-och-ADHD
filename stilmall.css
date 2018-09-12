@@ -44,15 +44,15 @@ body {
 }
 /*For links inside Navigation bar*/
 #navigation:active {
-	color: black;
+	color: #000000;
 }
 /*For links inside Navigation bar*/
 #navigation:visited {
-	color: black;
+	color: #000000;
 }
 /*For links inside Navigation bar*/
 #navigation:hover {
-	color: white;
+	color: #FFFFFF;
 }
 
 /*For the box that is to the right*/
