@@ -51,7 +51,7 @@ body {
 }
 /*For links inside Navigation bar*/
 .navigationbutton:active {
-	color: #bcbcbc;
+	color: #00ff00;
 }
 /*For links inside Navigation bar*/
 .navigationbutton:visited {
