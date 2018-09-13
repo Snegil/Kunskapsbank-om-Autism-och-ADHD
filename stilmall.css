@@ -28,10 +28,14 @@ body {
 	font-size: 30px;
 	margin-top: 10px;
 	height: 32px;
-	background-image: radial-gradient(circle, silver, gray, silver);
+	/*background-image: radial-gradient(circle, silver, gray, silver);*/
+	background-image: url("images/Backgroundstone.png");
+	background-attachment: fixed;
+	background-size: auto;
+	background-repeat: repeat-x;
 	text-align: center;
 	text-transform: capitalize;
-	text-shadow: -2px -2px #FFFFFF;
+	text-shadow: -1px -2px rgba(119, 119, 119, 0.5);
 	font-weight: bold;	
 }
 
@@ -72,40 +76,46 @@ body {
 	text-transform: uppercase;
 	margin-left: 5px;
 }
+/*containing*/
+.container {
+	width: 100%;
+	margin: auto;
+	padding: 0px;
+	height: 200px;
+}
 /*For the box that is to the left*/
 #leftbox {
-	display: block;
-	top: -208px;
+	position: absolute;
+	top: -2px;
 	float: left;
-	position: relative;
 	background-color: silver;
 	padding-top: 0px;
 	padding-left: 2px;
-	margin-left: -10px;
+	margin-left: -300px;
+	margin-right: 10px;
 	margin-top: 5px;
 	margin-bottom: 3px;
-	width: 285px;
+	width: 290px;
 	height: 200px;
 }
 /*For the box that is to the right*/
 #rightbox {
-	display: block;
-	float: right;
-	position: relative;
+	position: absolute;
 	padding-top: 3px;
 	padding-left: 2px;
-	margin-left: 280px;
-	margin-right: -8px;
+	margin-left: 16%;
+	margin-right: -45px;
 	margin-top: 2px;
 	margin-bottom: 3px;
 	height: 200px;
+	width: 83%;
 	overflow: none;
 }
 /*The title of the Main body of text*/
 .boxtoptext {
 	position: relative;
 	background-color: #FFFFFF;
-	border: 0px solid black;
+	border-bottom: 2px ridge black;
 	margin-right: 0px;
 	text-align: center;
 	font-size: 25px;
@@ -122,14 +132,7 @@ body {
 	font-size: 20px;
 	overflow: auto;
 }
-
-.container {
-	width: 100%;
-	margin: auto;
-	padding: 0px;
-	height: 200px;
-}
-
+/*Backgroundcolor for both left and right box*/
 .backgroundcolor {
 	border-top: 3px solid black;
 	border-left: 2px solid black;
@@ -141,3 +144,31 @@ body {
 	background-repeat: repeat-x;
 	height 440px;
 }
+
+.gallery {
+	position: relative;
+	background-color: lightgray;
+	float: left;
+	margin-left: 10px;
+	border: 1px solid black;
+	width: 180px;
+	height: 220px;
+}
+
+.galleryimg {
+	margin: 0px;
+	border-bottom: 2px solid black;
+	width: 180px;
+	height: 180px;
+}
+
+.galleryimg:hover {
+	border-bottom: 2px solid gray;
+}
+
+.gallerydesc {
+	margin-top: 2px;
+	text-align: center;
+	font-size: 12px;
+}
+	
