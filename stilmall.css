@@ -15,8 +15,8 @@ body {
 	margin-left: -8px;
 	margin-right: -8px;
 	margin-bottom: 0px;
-	height: 64px;
-	background-image: radial-gradient(circle, #595959, #3a3a3a, #2b2b2b);
+	height: 120px;
+	background-image: radial-gradient(circle, #B2B2B2, #3a3a3a, #B7B7B7);
 	border: 2px solid black
 	border-radius: 10px
 	text-align: center;
@@ -24,11 +24,11 @@ body {
 /*For the title on top of the page*/
 #Rstil {
 	display: block;
+	border-left: 5px groove black;
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
 	font-size: 30px;
 	margin-top: 10px;
-	height: 32px;
-	/*background-image: radial-gradient(circle, silver, gray, silver);*/
+	height: 90px;
 	background-image: url("images/Backgroundstone.png");
 	background-attachment: fixed;
 	background-size: auto;
@@ -38,54 +38,84 @@ body {
 	text-shadow: -1px -2px rgba(119, 119, 119, 0.5);
 	font-weight: bold;	
 }
+#Rstilback {
+	float: right;
+	margin-top: -2px;
+	background-image: url("images/Backgroundstone.png");
+	background-size: fixed;
+	background-attachment: fixed;
+	background-repeat: repeat-x;
+	max-width: 151px;
+	max-height: 122px;
+	border-left: 5px groove black;
+	border-bottom: 2px groove black
+	padding-bottom: 0px;
+	border-right: 5px ridge black;
+}
 
 /*Navigation bar*/
 #navigation {
+	display: inline-block;
+	background-image: url("images/Backgroundstone.png");
+	background-attachment: fixed;
+	background-size: auto;
+	background-repeat: repeat-x;
+	border-left: 5px groove black;
+	border-right: 5px ridge black;
 	text-align: left;
 	text-transform: capitalize;
 	text-decoration: none;
 	font-weight: bold;
-	border-top: 3px ridge black;
-	max-height: 10%;
-	padding: 2px;
-	margin-bottom: 13px;
-}
-/*For links inside Navigation bar*/
-.navigationbutton:link {
-	color: #bcbcbc;
-}
-/*For links inside Navigation bar*/
-.navigationbutton:active {
-	color: #00ff00;
-}
-/*For links inside Navigation bar*/
-.navigationbutton:visited {
-	color: #bcbcbc;
-}
-/*For links inside Navigation bar*/
-.navigationbutton:hover {
-	color: rgb(250, 147, 147);
-	background-color: black;
+	height: 26px;
+	width: 155px;
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 4px;
+	padding-right: 2px;
 }
 /*For the links/button in #navigation*/
 .navigationbutton {
-	border: 1px solid black;
+	border: 2px solid white;
+	background-color: #F5DEB3;
+	background-attachment: fixed;
+	background-size: auto;
 	border-radius: 7px;
 	text-decoration: none;
 	text-align: center;
 	text-transform: uppercase;
 	margin-left: 5px;
 }
+
+/*For links inside Navigation bar*/
+.navigationbutton:link {
+	color: #000000;
+}
+/*For links inside Navigation bar*/
+.navigationbutton:active {
+	color: #000000;
+}
+/*For links inside Navigation bar*/
+.navigationbutton:visited {
+	color: #000000;
+}
+/*For links inside Navigation bar*/
+.navigationbutton:hover {
+	color: rgba(148, 20, 20, 0.6);
+	background-color: #B7B7B7;
+}
+
 /*containing*/
-.container {
+/*.container {
 	width: 100%;
 	margin: auto;
 	padding: 0px;
 	height: 200px;
 }
+
 /*For the box that is to the left*/
-#leftbox {
-	position: absolute;
+/*#leftbox {
+	position: relative;
+	display: inline-block;
 	top: -2px;
 	float: left;
 	background-color: silver;
@@ -99,8 +129,9 @@ body {
 	height: 200px;
 }
 /*For the box that is to the right*/
-#rightbox {
-	position: absolute;
+/*#rightbox {
+	position: relative;
+	display: inline-block;
 	padding-top: 3px;
 	padding-left: 2px;
 	margin-left: 16%;
@@ -112,7 +143,7 @@ body {
 	overflow: none;
 }
 /*The title of the Main body of text*/
-.boxtoptext {
+/*.boxtoptext {
 	position: relative;
 	background-color: #FFFFFF;
 	border-bottom: 2px ridge black;
@@ -125,7 +156,7 @@ body {
 }
 
 /*Main body of text*/
-.boxtext {
+/*.boxtext {
 	height: 825px;
 	margin-top: 5px;
 	padding: 3px;
@@ -133,7 +164,7 @@ body {
 	overflow: auto;
 }
 /*Backgroundcolor for both left and right box*/
-.backgroundcolor {
+/*.backgroundcolor {
 	border-top: 3px solid black;
 	border-left: 2px solid black;
 	border-right: 2px solid black;
