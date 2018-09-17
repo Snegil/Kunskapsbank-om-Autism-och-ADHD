@@ -122,49 +122,32 @@ body {
 	background-color: #B7B7B7;
 }
 
-/*containing*/
-.container {
-	width: 100%;
-	margin: auto;
-	padding: 0px;
-	height: 200px;
+/*For the box*/
+#centerbox {
+	display: block;
+	position: relative;
+	height: 100%;
+	border-left: 3px groove black;
+	border-right: 3px ridge black;
+	background-image: url("images/Backgroundstone.png");
+	background-attachment: scroll;
+	background-size: auto;
+	background-repeat: repeat-x;
+	padding-left: 7px;
+	padding-right: 7px;
+	padding-bottom: 0px;
+	margin-left: 10px;
+	margin-right: 10px;
 }
 
-/*For the box that is to the left*/
-#leftbox {
-	position: relative;
-	display: inline-block;
-	top: -2px;
-	float: left;
-	background-color: silver;
-	padding-top: 0px;
-	padding-left: 2px;
-	margin-left: -300px;
-	margin-right: 10px;
-	margin-top: 5px;
-	margin-bottom: 3px;
-	width: 290px;
-	height: 200px;
-}
-/*For the box that is to the right*/
-#rightbox {
-	position: relative;
-	display: inline-block;
-	padding-top: 3px;
-	padding-left: 2px;
-	margin-left: 16%;
-	margin-right: -45px;
-	margin-top: 2px;
-	margin-bottom: 3px;
-	height: 200px;
-	width: 83%;
-	overflow: none;
-}
 /*The title of the Main body of text*/
 .boxtoptext {
 	position: relative;
-	background-color: #FFFFFF;
+	background-image: url("images/Backgroundwhitestone.png");
+	border-top: 2px groove black;
 	border-bottom: 2px ridge black;
+	//border-left: 3px groove black;
+	//border-right: 3px ridge black;
 	margin-right: 0px;
 	text-align: center;
 	font-size: 25px;
@@ -175,13 +158,21 @@ body {
 
 /*Main body of text*/
 .boxtext {
+	position: relative;
+	background-image: url("images/Backoffwhitestone.png");
+	background-size: auto;
+	background-attachment: scroll;
+	background-repeat: repeat-x;
+	border-left: 3px groove black;
+	border-right: 3px ridge black;
 	height: 825px;
-	margin-top: 5px;
-	padding: 3px;
+	margin-top: 0px;
+	padding-left: 3px;
+	padding-right: 3px;
 	font-size: 20px;
 	overflow: auto;
 }
-/*Backgroundcolor for both left and right box*/
+/*Backgroundcolor for both left and right box(NotInUse)*/
 .background {
 	border-top: 3px solid black;
 	border-left: 2px solid black;
