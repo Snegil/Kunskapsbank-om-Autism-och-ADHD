@@ -16,8 +16,8 @@ body {
 	margin-right: -8px;
 	margin-bottom: 0px;
 	height: 120px;
-	background-image: radial-gradient(circle, #B2B2B2, #3a3a3a, #B7B7B7);
-	border: 2px solid black
+	background-image: radial-gradient(ellipse at bottom, #FFFFFF, #3a3a3a, #000000);
+	/*border-bottom: 2px groove black;*/
 	border-radius: 10px
 	text-align: center;
 }
@@ -30,15 +30,27 @@ body {
 	margin-top: 10px;
 	height: 90px;
 	background-image: url("images/Backgroundstone.png");
-	background-attachment: fixed;
+	background-attachment: scroll;
 	background-size: auto;
 	background-repeat: repeat-x;
-	text-align: center;
+}
+/*Title on top of page*/
+#Rstiltitle {
+	display: inline-block;
+	float: left;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 60px;
+	text-align: left;
 	text-transform: capitalize;
 	text-shadow: -1px -2px rgba(119, 119, 119, 0.5);
-	font-weight: bold;	
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
 }
-#Rstilback {
+/*Tuturu picture to the left*/
+#Rstilrightimg {
+	display: inline-block;
 	float: right;
 	margin-top: -2px;
 	background-image: url("images/Backgroundstone.png");
@@ -48,9 +60,13 @@ body {
 	max-width: 151px;
 	max-height: 122px;
 	border-left: 5px groove black;
-	border-bottom: 2px groove black
+	//border-bottom: 5px ridge black;
 	padding-bottom: 0px;
 	border-right: 5px ridge black;
+}
+#rightimgsize {
+	width: 150px;
+	height: 120px;
 }
 
 /*Navigation bar*/
@@ -62,6 +78,7 @@ body {
 	background-repeat: repeat-x;
 	border-left: 5px groove black;
 	border-right: 5px ridge black;
+	//border-bottom: 5px ridge black;
 	text-align: left;
 	text-transform: capitalize;
 	text-decoration: none;
@@ -85,7 +102,6 @@ body {
 	text-transform: uppercase;
 	margin-left: 5px;
 }
-
 /*For links inside Navigation bar*/
 .navigationbutton:link {
 	color: #000000;
@@ -101,11 +117,13 @@ body {
 /*For links inside Navigation bar*/
 .navigationbutton:hover {
 	color: rgba(148, 20, 20, 0.6);
+	border: 2px solid black;
+	border-radius: 7px;
 	background-color: #B7B7B7;
 }
 
 /*containing*/
-/*.container {
+.container {
 	width: 100%;
 	margin: auto;
 	padding: 0px;
@@ -113,7 +131,7 @@ body {
 }
 
 /*For the box that is to the left*/
-/*#leftbox {
+#leftbox {
 	position: relative;
 	display: inline-block;
 	top: -2px;
@@ -129,7 +147,7 @@ body {
 	height: 200px;
 }
 /*For the box that is to the right*/
-/*#rightbox {
+#rightbox {
 	position: relative;
 	display: inline-block;
 	padding-top: 3px;
@@ -143,7 +161,7 @@ body {
 	overflow: none;
 }
 /*The title of the Main body of text*/
-/*.boxtoptext {
+.boxtoptext {
 	position: relative;
 	background-color: #FFFFFF;
 	border-bottom: 2px ridge black;
@@ -156,7 +174,7 @@ body {
 }
 
 /*Main body of text*/
-/*.boxtext {
+.boxtext {
 	height: 825px;
 	margin-top: 5px;
 	padding: 3px;
@@ -164,18 +182,18 @@ body {
 	overflow: auto;
 }
 /*Backgroundcolor for both left and right box*/
-/*.backgroundcolor {
+.background {
 	border-top: 3px solid black;
 	border-left: 2px solid black;
 	border-right: 2px solid black;
 	border-bottom: 1px solid black;
 	background-image: url("images/Backgroundstone.png");
-	background-attachment: fixed;
+	background-attachment: scroll;
 	background-size: auto;
 	background-repeat: repeat-x;
 	height 440px;
 }
-
+/*For a image gallery*/
 .gallery {
 	position: relative;
 	background-color: lightgray;
@@ -185,18 +203,15 @@ body {
 	width: 180px;
 	height: 220px;
 }
-
 .galleryimg {
 	margin: 0px;
 	border-bottom: 2px solid black;
 	width: 180px;
 	height: 180px;
 }
-
 .galleryimg:hover {
 	border-bottom: 2px solid gray;
 }
-
 .gallerydesc {
 	margin-top: 2px;
 	text-align: center;
