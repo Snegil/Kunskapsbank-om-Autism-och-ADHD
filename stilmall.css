@@ -1,7 +1,7 @@
 /*The main body*/
 body {
 	background-color: #f5deb3;
-	background-color: rgba(234, 195, 146, 0.78)
+	//background-color: rgba(234, 195, 146, 0.78)
 	background-attachment: fixed;
 	background-repeat: repeat-x;
 	background-size: auto;
@@ -14,7 +14,7 @@ body {
 	margin-top: -10px;
 	margin-left: -8px;
 	margin-right: -8px;
-	margin-bottom: 0px;
+	margin-bottom: 5px;
 	height: 120px;
 	background-image: radial-gradient(ellipse at bottom, #FFFFFF, #3a3a3a, #000000);
 	/*border-bottom: 2px groove black;*/
@@ -29,7 +29,7 @@ body {
 	font-size: 30px;
 	margin-top: 10px;
 	height: 90px;
-	background-image: url("images/Backgroundstone.png");
+	background-image: url("images/Subtlebackground.png");
 	background-attachment: scroll;
 	background-size: auto;
 	background-repeat: repeat-x;
@@ -53,11 +53,11 @@ body {
 	display: inline-block;
 	float: right;
 	margin-top: -2px;
-	background-image: url("images/Backgroundstone.png");
+	background-image: url("images/Subtlebackground.png");
 	background-size: fixed;
 	background-attachment: fixed;
 	background-repeat: repeat-x;
-	max-width: 151px;
+	max-width: 210px;
 	max-height: 122px;
 	border-left: 5px groove black;
 	//border-bottom: 5px ridge black;
@@ -65,14 +65,20 @@ body {
 	border-right: 5px ridge black;
 }
 #rightimgsize {
-	width: 150px;
+	margin-top: 2px;
+	width: 180px;
 	height: 120px;
+}
+#rightcontainer {
+	width: 210;
+	max-width: 210;
+	max-height 122;
 }
 
 /*Navigation bar*/
 #navigation {
 	display: inline-block;
-	background-image: url("images/Backgroundstone.png");
+	background-image: url("images/Subtlebackground.png");
 	background-attachment: fixed;
 	background-size: auto;
 	background-repeat: repeat-x;
@@ -129,13 +135,14 @@ body {
 	height: 100%;
 	border-left: 3px groove black;
 	border-right: 3px ridge black;
-	background-image: url("images/Backgroundstone.png");
+	background-image: url("images/Subtlebackground.png");
 	background-attachment: scroll;
 	background-size: auto;
 	background-repeat: repeat-x;
 	padding-left: 7px;
 	padding-right: 7px;
 	padding-bottom: 0px;
+	margin-top: 10px;
 	margin-left: 10px;
 	margin-right: 10px;
 }
@@ -143,7 +150,7 @@ body {
 /*The title of the Main body of text*/
 .boxtoptext {
 	position: relative;
-	background-image: url("images/Backgroundwhitestone.png");
+	background-image: url("images/Subtlebackground.png");
 	border-top: 2px groove black;
 	border-bottom: 2px ridge black;
 	//border-left: 3px groove black;
@@ -167,6 +174,8 @@ body {
 	border-right: 3px ridge black;
 	height: 825px;
 	margin-top: 0px;
+	margin-bottom: 10px;
+	padding-bottom: 5px;
 	padding-left: 3px;
 	padding-right: 3px;
 	font-size: 20px;
