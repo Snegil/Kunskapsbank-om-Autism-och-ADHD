@@ -38,12 +38,6 @@ body {
 #Rstiltitle {
 	display: inline-block;
 	float: left;
-	font-family: "Trebuchet MS", Helvetica, sans-serif;
-	font-weight: bold;
-	font-size: 60px;
-	text-align: left;
-	text-transform: capitalize;
-	text-shadow: -1px -2px rgba(119, 119, 119, 0.5);
 	width: 80%;
 	margin-left: auto;
 	margin-right: auto;
@@ -77,13 +71,13 @@ body {
 
 /*Navigation bar*/
 #navigation {
-	display: inline-block;
+	display: block;
 	background-image: url("images/Subtlebackground.png");
 	background-attachment: fixed;
 	background-size: auto;
 	background-repeat: repeat-x;
 	border-left: 5px groove black;
-	border-right: 5px ridge black;
+	//border-right: 5px ridge black;
 	//border-bottom: 5px ridge black;
 	text-align: left;
 	text-transform: capitalize;
@@ -94,7 +88,6 @@ body {
 	padding-left: 2px;
 	padding-right: 2px;
 	padding-top: 4px;
-	padding-right: 2px;
 }
 /*For the links/button in #navigation*/
 .navigationbutton {
@@ -102,7 +95,7 @@ body {
 	background-color: #F5DEB3;
 	background-attachment: fixed;
 	background-size: auto;
-	border-radius: 7px;
+	border-radius: 3px;
 	text-decoration: none;
 	text-align: center;
 	text-transform: uppercase;
@@ -113,19 +106,23 @@ body {
 	color: #000000;
 }
 /*For links inside Navigation bar*/
-.navigationbutton:active {
-	color: #000000;
-}
-/*For links inside Navigation bar*/
 .navigationbutton:visited {
 	color: #000000;
 }
 /*For links inside Navigation bar*/
 .navigationbutton:hover {
-	color: rgba(148, 20, 20, 0.6);
+	color: rgba(102, 4, 4, 0.95);
 	border: 2px solid black;
-	border-radius: 7px;
-	background-color: #B7B7B7;
+	border-radius: 3px;
+	background-color: #F5DEB3;
+}
+/*For links inside Navigation bar*/
+.navigationbutton:active {
+	color: #000000;
+}
+/*For the images used as buttons*/
+a.navigationbutton {
+	
 }
 
 /*For the box*/
@@ -172,7 +169,8 @@ body {
 	background-repeat: repeat-x;
 	border-left: 3px groove black;
 	border-right: 3px ridge black;
-	height: 825px;
+	border-bottom: 3px ridge black;
+	height: 100%;
 	margin-top: 0px;
 	margin-bottom: 10px;
 	padding-bottom: 5px;
