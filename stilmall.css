@@ -101,6 +101,10 @@ body {
 	text-transform: uppercase;
 	margin-left: 5px;
 }
+img.navigationbutton {
+	max-width: 40px;
+	max-height: 20px;
+}
 /*For links inside Navigation bar*/
 .navigationbutton:link {
 	color: #000000;
@@ -176,6 +180,7 @@ a.navigationbutton {
 	padding-bottom: 5px;
 	padding-left: 3px;
 	padding-right: 3px;
+	text-align: left;
 	font-size: 20px;
 	overflow: auto;
 }
