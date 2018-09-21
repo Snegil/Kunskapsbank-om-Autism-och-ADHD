@@ -38,6 +38,7 @@ body {
 #Rstiltitle {
 	display: inline-block;
 	float: left;
+	height: 90%;
 	width: 80%;
 	margin-left: auto;
 	margin-right: auto;
@@ -73,6 +74,7 @@ body {
 #navigation {
 	display: block;
 	background-image: url("images/Subtlebackground.png");
+	//background-color: black;
 	background-attachment: fixed;
 	background-size: auto;
 	background-repeat: repeat-x;
@@ -84,26 +86,26 @@ body {
 	text-decoration: none;
 	font-weight: bold;
 	height: 26px;
-	width: 155px;
+	width: 170px;
 	padding-left: 2px;
 	padding-right: 2px;
 	padding-top: 4px;
 }
 /*For the links/button in #navigation*/
 .navigationbutton {
-	border: 2px solid white;
-	background-color: #F5DEB3;
-	background-attachment: fixed;
-	background-size: auto;
-	border-radius: 3px;
+	position: relative;
+	border: 1px solid black;
+	background-color: grey;
+	//background-attachment: fixed;
+	//background-size: auto;
+	//border-radius: 3px;
+	width: 40px;
+	height 40px;
 	text-decoration: none;
 	text-align: center;
 	text-transform: uppercase;
+	margin-top: -4px;
 	margin-left: 5px;
-}
-img.navigationbutton {
-	max-width: 40px;
-	max-height: 20px;
 }
 /*For links inside Navigation bar*/
 .navigationbutton:link {
@@ -116,17 +118,13 @@ img.navigationbutton {
 /*For links inside Navigation bar*/
 .navigationbutton:hover {
 	color: rgba(102, 4, 4, 0.95);
-	border: 2px solid black;
+	border: 1px solid silver;
 	border-radius: 3px;
 	background-color: #F5DEB3;
 }
 /*For links inside Navigation bar*/
 .navigationbutton:active {
 	color: #000000;
-}
-/*For the images used as buttons*/
-a.navigationbutton {
-	
 }
 
 /*For the box*/
