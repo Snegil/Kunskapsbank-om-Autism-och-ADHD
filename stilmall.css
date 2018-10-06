@@ -1,6 +1,6 @@
 /*The main body*/
 body {
-	background-color: #f5deb3;
+	background-color: lavender;
 	//background-color: rgba(234, 195, 146, 0.78)
 	background-attachment: fixed;
 	background-repeat: repeat-x;
@@ -18,7 +18,7 @@ body {
 	margin-right: -8px;
 	margin-bottom: 5px;
 	height: 120px;
-	background-color: dimgray;
+	background-color: silver;
 	//background-image: radial-gradient(ellipse at bottom, #FFFFFF, #3a3a3a, #000000);
 	/*border-bottom: 2px groove black;*/
 	border-radius: 10px
@@ -33,7 +33,7 @@ body {
 	font-size: 30px;
 	margin-top: 10px;
 	height: 90px;
-	background-color: #000000;
+	background-color: dimgray;
 	//background-image: url("images/Subtlebackground.png");
 	//background-attachment: scroll;
 	//background-size: auto;
@@ -51,17 +51,17 @@ body {
 
 
 /*To restrain the logo in top left*/
-#img {
+#logoimg {
 	background-attachment: fixed;
 	transition-duration: 0.8s;
 	-webkit-transition-duration: 0.3s; /* Safari */
 	width: 350px;
-	height: 70px;
+	height: 90px;
 }
 /*For whenever you hover over the logo top left*/
-#img:hover {
-	-webkit-filter: brightness(120%); /* Safari 6.0 - 9.0 */
-    filter: brightness(120%);
+#logoimg:hover {
+	-webkit-filter: brightness(150%); /* Safari 6.0 - 9.0 */
+    filter: brightness(150%);
 }
 	
 	/*Autismasperger picture to the left*/
@@ -72,7 +72,7 @@ body {
 		background-color: white;
 		max-width: 210px;
 		max-height: 122px;
-		border-left: 5px groove black;
+		border-left: 2px solid black;
 		padding-right: 8px;
 		padding-bottom: 0px;
 	}	
@@ -93,8 +93,8 @@ body {
 		max-height 122;
 	}
 	
-/*Whenever the max-width of the screen = 700px the autismaspergers logo is not displayed*/
-@media only screen and (max-width: 700px) {
+/*Whenever the max-width of the screen = 650px the autismaspergers logo is not displayed*/
+@media only screen and (max-width: 650px) {
 	#Rstilrightimg {
 		display:none;
 	}
@@ -113,13 +113,12 @@ body {
 	background-attachment: fixed;
 	background-size: auto;
 	background-repeat: repeat-x;
-	border-left: 5px groove black;
 	text-align: left;
 	text-transform: capitalize;
 	text-decoration: none;
 	font-weight: bold;
 	height: 26px;
-	width: 170px;
+	width: 80%;
 	padding-left: 2px;
 	padding-right: 2px;
 	padding-top: 2px;
@@ -130,10 +129,10 @@ body {
     transition-duration: 0.8s;
 	-webkit-transition-duration: 0.3s; /* Safari */
 	opacity: 1;
-	background-color: grey;
+	background-color: lightgrey;
 	border: 1px solid silver;
 	border-radius: 2px;
-	color: white;
+	color: black;
 	text-align: center;
 	font-weight: bold;
 	font-size: 18px;
@@ -145,6 +144,7 @@ body {
 .navbutton:hover {
 	background-color: silver;
 	transform: translatey(-2px);
+	border: 1px solid grey;
 }
 
 /*For whenever you press the button*/
@@ -163,9 +163,10 @@ body {
 #centerbox {
 	position: relative;
 	height: 100%;
-	border-top: 3px solid black;
-	border-left: 3px solid black;
-	border-right: 3px solid black;
+	border-top: 2px solid black;
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+	border-bottom: 2px solid black;
 	border-radius: 3px;
 	background-color: dimgray;
 	padding-left: 7px;
@@ -182,8 +183,8 @@ body {
 	background-image: url("images/Subtlebackground.png");
 	//border-top: 2px groove black;
 	border-bottom: 2px ridge black;
-	//border-left: 3px groove black;
-	//border-right: 3px ridge black;
+	border-left: 3px groove black;
+	border-right: 3px ridge black;
 	margin-right: 0px;
 	text-align: center;
 	font-size: 25px;
@@ -214,8 +215,40 @@ body {
 	overflow: auto;
 }
 
-
-
+/*The information of the writer*/
+#writerinfo {
+	position: relative;
+	border: 1px solid black;
+	border-radius: 5px;
+	//box-shadow: 1px 2px dimgray;
+	//font-weight: bold;
+	background-color: silver;
+	margin-top: 20px;
+	margin-right: 5px;
+	margin-left: 5px;
+	margin-bottom: 0px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 2px;
+	float: left;
+	font-size: 15px;
+	width: 55px;
+	height: 45px;
+}
+/*For a link inside the #writerinfo that goes to the specific page of the writer*/
+#writerinfo a {
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+}
+/*For whenever you hover over a link in #writerinfo */
+#writerinfo a:hover {
+	color: red;
+}
+/*To get a text to be bold*/
+.bold {
+	font-weight: bold;
+}
 /*For a image gallery*/
 .gallery {
 	position: relative;
