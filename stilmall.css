@@ -65,43 +65,45 @@ body {
 }
 	
 	/*Autismasperger picture to the left*/
-	#Rstilrightimg {
+	#Rstilautimg {
 		display: inline-block;
-		float: right;
+		float: left;
 		margin-top: -2px;
 		background-color: white;
 		max-width: 210px;
 		max-height: 122px;
-		border-left: 2px solid black;
+		border-right: 2px solid black;
+		margin-right: 2px;
 		padding-right: 8px;
 		padding-bottom: 0px;
 	}	
 	/*To force the image to the correct size*/
-	#rightimgsize {
+	#autimgsize {
 		margin-top: 2px;
 		width: 180px;
 		height: 120px;
 	}
 	/*Adds an effect on the img*/
-	#rightimgsize:hover {
+	#autimgsize:hover {
 		
 	}
 	/*To contain the img*/
-	#rightcontainer {
+	#autcontainer {
 		width: 210;
 		max-width: 210;
 		max-height 122;
 	}
 	
+	
 /*Whenever the max-width of the screen = 650px the autismaspergers logo is not displayed*/
 @media only screen and (max-width: 650px) {
-	#Rstilrightimg {
+	#Rstilautimg {
 		display:none;
 	}
-	#rightimgsize {
+	#autimgsize {
 		display: none;
 	}
-	#rightcontainer {
+	#autcontainer {
 		display: none;
 	}
 }
