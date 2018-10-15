@@ -4,7 +4,7 @@ body {
 	//background-color: rgba(234, 195, 146, 0.78)
 	background-attachment: fixed;
 	background-repeat: repeat-x;
-	background-size: auto;
+	background-size: cover;
 	font-family: Arial, Helvetica, sans-serif;
 }
 
