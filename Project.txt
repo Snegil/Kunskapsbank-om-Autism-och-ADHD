@@ -1,0 +1,11 @@
+Project started : 180912
+Project started by : SNEGIL
+
+Project.txt started : 181105
+
+Finished :
+
+To-do :
+Forms to submit text.
+Better layout.
+Easier to read.
