@@ -165,10 +165,10 @@ body {
 #centerbox {
 	position: relative;
 	height: 100%;
-	border-top: 2px solid black;
-	border-left: 2px solid black;
-	border-right: 2px solid black;
-	border-bottom: 2px solid black;
+	border-top: 0px solid black;
+	border-left: 0px solid black;
+	border-right: 0px solid black;
+	border-bottom: 0px solid black;
 	border-radius: 3px;
 	background-color: dimgray;
 	padding-left: 7px;
@@ -182,11 +182,12 @@ body {
 /*The title of the Main body of text*/
 .boxtoptext {
 	position: relative;
-	background-image: url("images/Subtlebackground.png");
+	background-color: dimgray;
+	/*background-image: url("images/Subtlebackground.png");*/
 	//border-top: 2px groove black;
-	border-bottom: 2px ridge black;
-	border-left: 3px groove black;
-	border-right: 3px ridge black;
+	border-bottom: 0px ridge black;
+	border-left: 0px groove black;
+	border-right: 0px ridge black;
 	margin-right: 0px;
 	text-align: center;
 	font-size: 25px;
@@ -203,9 +204,9 @@ body {
 	//background-attachment: scroll;
 	//background-repeat: repeat-x;
 	background-color: white;
-	border-left: 3px groove black;
-	border-right: 3px ridge black;
-	border-bottom: 3px ridge black;
+	border-left: 0px groove black;
+	border-right: 0px ridge black;
+	border-bottom: 0px ridge black;
 	height: 100%;
 	margin-top: 0px;
 	margin-bottom: 10px;
@@ -221,7 +222,7 @@ body {
 /*The information of the writer and if needed a extra title.*/
 .writerinfo {
 	position: relative;
-	border: 1px solid black;
+	border: 0px solid black;
 	border-radius: 5px;
 	//box-shadow: 1px 2px dimgray;
 	//font-weight: bold;
