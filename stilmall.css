@@ -276,7 +276,7 @@ a {
 	color: black;
 }
 a:hover {
-	color: #0f0;
+	text-decoration: underline;
 }
 
 /*For a image gallery*/
