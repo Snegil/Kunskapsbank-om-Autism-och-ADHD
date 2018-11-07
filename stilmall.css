@@ -18,7 +18,7 @@ body {
 	margin-right: -8px;
 	margin-bottom: 5px;
 	height: 120px;
-	background-color: silver;
+	background-color: #8E8E8E;
 	//background-image: radial-gradient(ellipse at bottom, #FFFFFF, #3a3a3a, #000000);
 	/*border-bottom: 2px groove black;*/
 	border-radius: 10px
@@ -54,7 +54,7 @@ body {
 #logoimg {
 	background-attachment: fixed;
 	transition-duration: 0.8s;
-	-webkit-transition-duration: 0.3s; /* Safari */
+	-webkit-transition-duration: 0.8s; /* Safari */
 	width: 350px;
 	height: 90px;
 }
@@ -69,24 +69,29 @@ body {
 		display: inline-block;
 		float: left;
 		margin-top: -2px;
-		background-color: white;
+		background-color: dimgray;
 		max-width: 210px;
 		max-height: 122px;
-		border-right: 2px solid black;
+		border-right: Opx solid black;
 		margin-right: 2px;
 		padding-right: 8px;
 		padding-bottom: 0px;
 	}	
 	/*To force the image to the correct size*/
 	#autimgsize {
-		margin-top: 2px;
-		width: 180px;
-		height: 120px;
+	transition-duration: 0.8s;
+	-webkit-transition-duration: 0.8s; /* Safari */
+	margin-top: 2px;
+	width: 180px;
+	height: 120px;
 	}
+	
 	/*Adds an effect on the img*/
 	#autimgsize:hover {
-		
+	-webkit-filter: brightness(150%); /* Safari 6.0 - 9.0 */
+    filter: brightness(150%);
 	}
+	
 	/*To contain the img*/
 	#autcontainer {
 		width: 210;
@@ -97,6 +102,8 @@ body {
 	
 /*Whenever the max-width of the screen = 650px the autismaspergers logo is not displayed*/
 @media only screen and (max-width: 650px) {
+	
+	/*To remove the autism picture*/
 	#Rstilautimg {
 		display:none;
 	}
@@ -106,6 +113,7 @@ body {
 	#autcontainer {
 		display: none;
 	}
+	
 }
 
 
@@ -132,8 +140,8 @@ body {
 	-webkit-transition-duration: 0.3s; /* Safari */
 	opacity: 1;
 	background-color: lightgrey;
-	border: 1px solid silver;
-	border-radius: 2px;
+	border: 0px solid silver;
+	border-radius: 0px;
 	color: black;
 	text-align: center;
 	font-weight: bold;
@@ -146,7 +154,7 @@ body {
 .navbutton:hover {
 	background-color: silver;
 	transform: translatey(-2px);
-	border: 1px solid grey;
+	border: 0px solid grey;
 }
 
 /*For whenever you press the button*/
@@ -223,12 +231,11 @@ body {
 .writerinfo {
 	position: relative;
 	border: 0px solid black;
-	border-radius: 5px;
-	//box-shadow: 1px 2px dimgray;
-	//font-weight: bold;
+	border-radius: 0px 15px 15px 0px;
 	background-color: silver;
 	margin-top: 10px;
 	margin-bottom: 0px;
+	margin-left: -5px;
 	margin-right: 3px;
 	padding-left: 10px;
 	padding-right: 5px;
@@ -263,7 +270,14 @@ body {
 .bold {
 	font-weight: bold;
 }
-
+/*For the <a> tag*/
+a {
+	text-decoration: none;
+	color: black;
+}
+a:hover {
+	color: #0f0;
+}
 
 /*For a image gallery*/
 .gallery {
