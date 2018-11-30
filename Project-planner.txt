@@ -15,6 +15,6 @@ Better layout; Finished: 181107
 Complain button; Finished: 181107
 
 To-do :
-Easier to read;
+Easier to read: resizable text with slider;
 Possible Javascript on writer's page;
 Conquer the world;
