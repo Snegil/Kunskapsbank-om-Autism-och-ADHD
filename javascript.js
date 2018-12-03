@@ -1,3 +1,3 @@
-function fontSizeChange() {
-	document.getElementById("boxmaintext").style.fontSize = document.getElementById("fontChange").value;
+function fontSizeC() {
+	document.getElementById("textval").innerHTML = document.getElementById("input").value;
 }
