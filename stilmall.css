@@ -41,14 +41,31 @@ body {
 }
 /*Navigationen*/
 #navigationbar {
-	margin-top: -5px;
-	height: 47px;
-	min-height: 47px;
-	max-height: 100%;
+	margin-top: 21px;
+	height: 20px;
 	width: 100%;
 	background-color: #B6B5B6;
 }
-
+#navcontainer {
+	height: 20px;
+	float: left;
+}
+.Navigationbutton {
+	position: relative;
+	margin-left: 1px;
+	float: left;
+	width: 60px;
+	height: 100%;
+	background-color: silver;
+	text-align: center;
+	vertical-align: center;
+}
+.Navigationbutton:hover {
+	background-color: white;
+	cursor: pointer;
+}
 #background-box {
 	background-color: white;
+	padding: 5px;
 }
+
