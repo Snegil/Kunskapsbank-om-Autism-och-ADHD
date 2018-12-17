@@ -39,6 +39,11 @@ body {
 	min-height: 75px;
 	max-height: 75px;
 }
+#githubmark {
+	float: right;
+	width: 20px;
+	height: 20px;
+}
 /*Navigationen*/
 #navigationbar {
 	margin-top: 21px;
@@ -48,7 +53,6 @@ body {
 }
 #navcontainer {
 	height: 20px;
-	float: left;
 }
 .Navigationbutton {
 	transition-duration: 2s;
@@ -62,13 +66,41 @@ body {
 	text-align: center;
 	vertical-align: center;
 }
+.RightNavigationbutton {
+	float: right;
+	width: 20px;
+	height: 20px;
+}
 .Navigationbutton:hover {
 	background-color: white;
 	cursor: pointer;
 }
+a {
+	color: black;
+	font-decoration: none;
+}
 #background-box {
 	background-color: white;
 	padding: 0px;
+}
+#background-titletext {
+	background-color: #B6B5B6;
+	border-top: 1px ridge gray;
+	text-align: center;
+	font-weight: bold;
+	font-size: 30px;
+}
+#background-maintext {
+	background-color: #FFFFFF;
+	padding: 5px;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+}
+#footer {
+	height: 20px;
+	min-height:20px;
+	max-height: 20px;
+	background-color: #B6B5B6; 
 }
 
 /*Media queries*/
@@ -132,4 +164,8 @@ body {
 		background-color: white;
 		margin-top: 50px;
 	}
+}
+/*Text ändringar*/
+.center {
+	text-align: center;
 }
