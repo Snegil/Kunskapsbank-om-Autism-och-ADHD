@@ -154,6 +154,7 @@ a {
 	/*Håller navigationen till en viss höjd*/
 	#navcontainer {
 		height: 100%;
+		max-width: 90vw;
 	}
 	/*För alla navigations knappar*/
 	.Navigationbutton {
@@ -161,7 +162,7 @@ a {
 		/*margin-left: -1px;*/
 		margin-bottom: 0px;
 		padding: 5px;
-		width: 93vw;
+		width: 92vw;
 		height: 100%;
 		background-color: silver;
 		text-align: center;
@@ -174,6 +175,7 @@ a {
 	/*vita bakgrunden som texten är på*/
 	#background-box {
 		background-color: white;
+		font-size: 30px;
 		margin-top: 0px;
 	}
 	
