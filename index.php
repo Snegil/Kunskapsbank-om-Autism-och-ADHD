@@ -21,8 +21,11 @@
 				</a>
 			</span>
 		</div>
-		Vector Art by <a target="_blank" href="https://vecteezy.com">Vecteezy.com</a>
-		Background by <a target="_blank" href="https://www.svgbackgrounds.com/">SVGBackgrounds</a>
+		<div id="footer">
+			Rebecca gillar vodka
+			Vector Art by <a target="_blank" href="https://vecteezy.com">Vecteezy.com</a>
+			Background by <a target="_blank" href="https://www.svgbackgrounds.com/">SVGBackgrounds</a>
+		</div>
 	</body>
 </html>
 		

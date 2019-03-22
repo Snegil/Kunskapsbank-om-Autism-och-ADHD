@@ -46,3 +46,9 @@ a:hover {
 	filter: brightness(120%);
 	-webkit-filter: brightness(120%);
 }
+#footer {
+	background-color: rgba(155, 155, 155, 0.74); /* Genomskinlig grå bakgrunds bild */
+	color: white;
+	position: fixed;
+	bottom: 0;
+}
