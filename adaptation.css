@@ -1,7 +1,7 @@
 /*Mobil anpassning*/
-/*Anpassning för enheter med mindre än 1000px bredd*/
+/*Anpassning för enheter med mindre än 600px bredd*/
 @media screen and (max-width: 600px) {
-	/* Styr Autism loggan direkt, är 100px höjd och bredden är så stor den kan bli utan att bli dålig */
+	/* Styr Autism loggan direkt, är 40px höjd och bredden är så stor den kan bli utan att bli dålig */
 	#autism {
 		height: 40px;
 		transition-duration: 2s;
