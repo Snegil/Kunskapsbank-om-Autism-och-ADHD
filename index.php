@@ -38,12 +38,18 @@
 					Hem
 				</div>
 				<div id="introduction-text">
+					<div id="GithubBox">
+						<a href="https://github.com/Snegil/Kunskapsbank-om-diagnoser">
+							<img id="GithubMark" src="images/GithubMark32.png">
+						</a>
+						Hela källkoden finns på Github!
+					</div>
 				</div>
 			</div>
 		</div>
 		<div id="footer">
 			<img id="ArbeteSkylt" src="images/ArbeteSkylt.png">
-			Pågående Projekt |
+			Pågående Projekt i tidig utveckling |
 
 			Vector Art från <a target="_blank" href="https://vecteezy.com">Vecteezy.com</a> |
 			Bakgrund från <a target="_blank" href="https://www.svgbackgrounds.com/">SVGBackgrounds</a>

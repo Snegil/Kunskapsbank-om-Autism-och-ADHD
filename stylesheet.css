@@ -6,10 +6,7 @@ body {
 	background-size: cover;
 	font-family: Arial, Helvetica, sans-serif;
 }
-/* Temporär skylt för att visa att detta är i tidig utveckling */
-#ArbeteSkylt {
-	height: 10px;
-}
+
 /* Alla <a> taggar har ingen text dekoration eller annorlunda färg */
 a {
 	color: inherit;
@@ -18,7 +15,7 @@ a {
 }
 /* Gör så att alla <a> taggar gör så att text färgen blir dimgray när man hovrar över den */
 a:hover {
-	color: lightgray;
+	color: #d3d3d3;
 }
 /*Top boxen som loggan kommer vara i*/
 #topbox {
@@ -81,7 +78,7 @@ a:hover {
 /* Vad som händer med alla knappar när man hovrar över de */
 .button:hover {
 	background-color: #9B9B9B;
-	color: dimgray;
+	color: #696969;
 }
 /* Sätter in <a class="button active"> till den knapp som går till sidan man är på */
 .active {
@@ -111,6 +108,15 @@ a:hover {
 	text-align: left;
 	font-size: 17px;
 }
+#GithubBox {
+	width: 200px;
+	position: relative;
+	box-shadow: 0px 0px 5px #000;
+	padding: 5px;
+}
+#GithubMark {
+	display: block;
+}
 #footer {
 	background-color: #DEDEDE; /* grå bakgrunds färg */
 	color: inherit;
@@ -119,4 +125,8 @@ a:hover {
 	position: fixed;
 	bottom: 0;
 	width: 100%;
+}
+/* Temporär skylt för att visa att detta är i tidig utveckling */
+#ArbeteSkylt {
+	height: 10px;
 }
