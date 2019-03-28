@@ -38,7 +38,6 @@
 					Hem
 				</div>
 				<div id="introduction-text">
-					
 				</div>
 			</div>
 		</div>
