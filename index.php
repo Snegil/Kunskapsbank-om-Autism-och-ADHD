@@ -38,12 +38,16 @@
 					Hem
 				</div>
 				<div id="introduction-text">
-					<div id="GithubBox">
-						<a href="https://github.com/Snegil/Kunskapsbank-om-diagnoser">
-							<img id="GithubMark" src="images/GithubMark32.png">
-						</a>
-						Hela källkoden finns på Github!
-					</div>
+					
+						<div id="GithubBox">
+							<a href="https://github.com/Snegil/Kunskapsbank-om-diagnoser">
+								<img id="GithubMark" src="images/GithubMark32.png">
+							<span id="GithubText">
+								Hela källkoden finns på Github!
+							</span>
+							</a>
+						</div>
+					
 				</div>
 			</div>
 		</div>

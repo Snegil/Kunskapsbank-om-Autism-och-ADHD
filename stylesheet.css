@@ -109,13 +109,25 @@ a:hover {
 	font-size: 17px;
 }
 #GithubBox {
-	width: 200px;
+	font-size: 15px;
+	width: 15%;
 	position: relative;
 	box-shadow: 0px 0px 5px #000;
 	padding: 5px;
+	transition-duration: 1s;
+}
+#GithubBox:hover {
+	box-shadow: 0px 0px 5px #CCCCCC;
 }
 #GithubMark {
-	display: block;
+	height: 30px;
+	float: left;
+}
+#GithubText {
+	color: black;
+}
+#GithubText:hover {
+	color: black;
 }
 #footer {
 	background-color: #DEDEDE; /* grå bakgrunds färg */
