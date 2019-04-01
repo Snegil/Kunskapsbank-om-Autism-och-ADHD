@@ -1,0 +1,59 @@
+###### Footer 2019-04-01
+
+#CSS
+#footer {
+	background-color: #DEDEDE; /* grå bakgrunds färg */
+	color: inherit;
+	font-size: 10px;
+	text-align: center;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
+/* Temporär skylt för att visa att detta är i tidig utveckling */
+#ArbeteSkylt {
+	height: 10px;
+}
+
+
+#Innehåll
+Vector Art från <a target="_blank" href="https://vecteezy.com">Vecteezy.com</a> |
+Bakgrund från <a target="_blank" href="https://www.svgbackgrounds.com/">SVGBackgrounds</a>
+
+##
+
+###### Github Box 2019-04-01
+
+<div id="GithubBox">
+	<a href="https://github.com/Snegil/Kunskapsbank-om-diagnoser">
+		<img id="GithubMark" src="images/GithubMark32.png">
+		<span id="GithubText">
+			Hela källkoden finns på Github!
+		</span>
+	</a>
+</div>
+
+#GithubBox {
+	font-size: 15px;
+	width: 15%;
+	position: relative;
+	/*box-shadow: 0px 0px 5px #000;*/
+	background-color: #EAEAEA;
+	padding: 5px;
+	margin: 5px;
+	transition-duration: 1s;
+}
+#GithubBox:hover {
+	box-shadow: 0px 0px 5px #CCCCCC;
+}
+#GithubMark {
+	height: 30px;
+	float: left;
+}
+#GithubText {
+	color: black;
+}
+#GithubText:hover {
+	color: black;
+}
+##

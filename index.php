@@ -9,15 +9,16 @@
 		</title>
 		<link rel='shortcut icon' type='image/x-icon' href='favicon.ico' />
 		<link href="https://fonts.googleapis.com/css?family=Exo+2" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="normalize.css">
 		<link rel="stylesheet" href="stylesheet.css">
 		<link rel="stylesheet" href="adaptation.css">
-		<link rel="stylesheet" type="text/css" href="normalize.css">
 	</head>
 	<body>
 		<div id="topbox">
 			<a href="index.php">
-				<img id="logo" src="images/Loggan.png">
+				<img id="logo" src="images/logotest0401-2.png">
 			</a>
 			<span id="autismContainer">
 				<a target="_blank" href="https://www.autism.se/">
@@ -35,18 +36,19 @@
 		<div id="Container">
 			<div id="introduction">
 				<div id="introduction-title">
-					Hem
+					En hemsida skapad av en individ med autism och ADHD <br />
+
+					
 				</div>
 				<div id="introduction-text">
 					
-						<div id="GithubBox">
-							<a href="https://github.com/Snegil/Kunskapsbank-om-diagnoser">
-								<img id="GithubMark" src="images/GithubMark32.png">
-							<span id="GithubText">
-								Hela källkoden finns på Github!
-							</span>
-							</a>
-						</div>
+					<div id="introduction-quote">
+					“
+					Jag gör det för att öka kunskapen i samhället om Autism och ADHD.
+					Jag har märkt att det behövs... 
+					”
+					&ndash;Utvecklarn
+					</div>
 					
 				</div>
 			</div>
