@@ -102,6 +102,8 @@ a:hover {
 	background-color: #d8d8d8;
 	font-size: 18px;
 	/*font-weight: bold;*/
+	padding-left: 2px;
+	padding-right: 2px;
 }
 #introduction-quote {
     font-family: 'VT323', monospace;
