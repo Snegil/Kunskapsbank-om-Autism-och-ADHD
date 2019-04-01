@@ -18,4 +18,10 @@
 	#introduction {
 		width: 100%;
 	}
+	#List {
+		width: 80%;
+	}
+	#footer {
+		display: none;
+	}
 }

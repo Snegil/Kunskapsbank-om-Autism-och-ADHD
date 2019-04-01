@@ -111,8 +111,20 @@ a:hover {
 }
 #introduction-text {
 	padding: 5px;
-	text-align: left;
+	text-align: center;
 	font-size: 17px;
+}
+#List {
+	display: inline-block;
+	text-align: left;
+	width: 50%;
+	list-style-type: square;
+}
+.Question {
+	color: black;
+}
+.Answer {
+	color: dimgray;
 }
 #footer {
 	text-align: center;

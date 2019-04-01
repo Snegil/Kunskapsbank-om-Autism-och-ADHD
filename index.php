@@ -50,6 +50,24 @@
 					&ndash;Utvecklarn
 					</div>
 					
+					<ul id="List">
+						<li> <span class="Question">Kan autism behandlas?</span> </li>
+						<li> <span class="Answer">Ja! Med förståelse och respekt.</span> </li>
+						<br />
+						<li> <span class="Question">Människor med autism vill inte ha socal kontakt</span> </li>
+						<li> <span class="Answer">Många med autism vill ha vänner och relationer, men kan ha svårt att veta hur.</span> </li>
+						<br />
+						<li> <span class="Question">Personer med autism har inga känslor.</span> </li>
+						<li> <span class="Answer">Personer med autism har känslor som alla andra, men kanske inte visar dem på ett sätt som stämmer med omgivningens förväntningar.</span> </li>
+						<br />
+						<li> <span class="Question">Barn som har autism växer ifrån det.</span> </li>
+						<li> <span class="Answer">Barn med autism växer upp till vuxna med autism.</span> </li>
+						<br />
+						<li> <span class="Question">Aspergers syndrom är ett påhitt för att ge ursäkter åt föräldrar till ouppfostrade barn.</span> </li>
+						<li> <span class="Answer">Aspergers syndrom är en utvecklingsrelaterad funktionsnedsättning med tydliga diagnostiska kriterier. Att inte ta hänsyn till funktionsnedsättningen kan vara ödeläggande för individen.</span> </li>
+						<br />
+					</ul>
+					
 				</div>
 			</div>
 		</div>
