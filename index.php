@@ -17,9 +17,11 @@
 	</head>
 	<body>
 		<div id="topbox">
+			<!-- Loggan och att loggan går till index.php -->
 			<a href="index.php">
 				<img id="logo" src="images/logotest0401-2.png">
 			</a>
+			<!-- Autism bandet -->
 			<span id="autismContainer">
 				<a target="_blank" href="https://www.autism.se/">
 					<img id="autism" src="images/AutismBild/Autismband.png">
@@ -27,21 +29,22 @@
 			</span>
 
 		</div>
+		<!-- Början av navigationen -->
 		<span id="navigation">
 			<a class="button active" href="index.php">Hem</a>
 			<a class="button" href="index.php">Information</a>
 			<a class="button" href="index.php">Diagnoser</a>
 			<a class="button" href="index.php">Om</a>
 		</span>
+		
 		<div id="Container">
 			<div id="introduction">
+				<!-- Introductions titeln -->
 				<div id="introduction-title">
 					En hemsida skapad av en individ med autism och ADHD <br />
-
-					
 				</div>
 				<div id="introduction-text">
-					
+					<!-- Introductions citatet -->
 					<div id="introduction-quote">
 					“
 					Jag gör det för att öka kunskapen i samhället om Autism och ADHD.
@@ -49,7 +52,7 @@
 					”
 					&ndash;Utvecklarn
 					</div>
-					
+					<!-- Listan som innehåller alla myter och fakta -->
 					<ul id="List">
 						<li> <span class="Question">Kan autism behandlas?</span> </li>
 						<li> <span class="Answer">Ja! Med förståelse och respekt.</span> </li>
@@ -66,16 +69,20 @@
 						<li> <span class="Question">Aspergers syndrom är ett påhitt för att ge ursäkter åt föräldrar till ouppfostrade barn.</span> </li>
 						<li> <span class="Answer">Aspergers syndrom är en utvecklingsrelaterad funktionsnedsättning med tydliga diagnostiska kriterier. Att inte ta hänsyn till funktionsnedsättningen kan vara ödeläggande för individen.</span> </li>
 						<br />
+						<span class="Source">
+						Källa: <a target="_blank" href="https://www.autism.se/myter_och_fakta">Autism och Asperger förbundet</a>
+						</span>
 					</ul>
 					
 				</div>
 			</div>
 		</div>
+		<!-- Början av footern -->
 		<div id="footer">
-			<img id="ArbeteSkylt" src="images/ArbeteSkylt.png">
 			Pågående Projekt i tidig utveckling |
-
+			<!-- Källan till Autism bandet och autism favicon -->
 			Vector Art från <a target="_blank" href="https://vecteezy.com">Vecteezy.com</a> |
+			<!-- Källan till bakgrunden -->
 			Bakgrund från <a target="_blank" href="https://www.svgbackgrounds.com/">SVGBackgrounds</a>
 		</div>
 	</body>

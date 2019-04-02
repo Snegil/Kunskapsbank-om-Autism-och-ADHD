@@ -13,10 +13,6 @@ a {
 	text-decoration: none;
 	transition-duration: 0.5s;
 }
-/* Gör så att alla <a> taggar gör så att text färgen blir dimgray när man hovrar över den */
-a:hover {
-	color: #d3d3d3;
-}
 /*Top boxen som loggan kommer vara i*/
 #topbox {
 	/*background-color: rgba(155, 155, 155, 0.74); /* Genomskinlig grå bakgrunds bild */
@@ -91,12 +87,14 @@ a:hover {
 	padding-top: 2px;
 	text-align: center;
 }
+/* Stora mitten lådan som innehåller #introduction-title och #introduction-text, #introduction-quote */
 #introduction {
 	display: inline-block;
 	border-radius: 5px 5px 0 0;
 	width: 68%;
 	background-color: #ededed;
 }
+/* Introductions titel längst upp på #introduction */
 #introduction-title {
 	border-radius: 5px 5px 0 0;
 	background-color: #d8d8d8;
@@ -105,29 +103,39 @@ a:hover {
 	padding-left: 2px;
 	padding-right: 2px;
 }
+/* Introduction-quote väljer hur citated ser ut */
 #introduction-quote {
     font-family: 'VT323', monospace;
 	text-align: center;
 	font-size: 15px;
 	color: dimgray;
 }
+/* Introduction-text innehåller #list och bestämmer att allt inom lådan är i mitten */
 #introduction-text {
 	padding: 5px;
 	text-align: center;
 	font-size: 17px;
 }
+/* Listan som bestämmer hur listan med myter och fakta ser ut */
 #List {
 	display: inline-block;
 	text-align: left;
 	width: 50%;
 	list-style-type: square;
 }
+/* Frågan till myt eller fakta */
 .Question {
 	color: black;
 }
+/* Svaret till myt eller fakta */
 .Answer {
 	color: dimgray;
 }
+/* Källan av myt eller fakta */
+.Source {
+	font-size: 10px;
+}
+/* För texten längst ner på sidan */
 #footer {
 	text-align: center;
 	position: absolute;
@@ -136,7 +144,4 @@ a:hover {
 	width: 100%;
 	bottom: 0px;
 	min-height: 10px;
-}
-#ArbeteSkylt {
-	height: 10px;
 }
