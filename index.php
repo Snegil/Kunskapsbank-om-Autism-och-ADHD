@@ -8,8 +8,7 @@
 		Kunskapsbank - Hem
 		</title>
 		<link rel='shortcut icon' type='image/x-icon' href='favicon.ico' />
-		<link href="https://fonts.googleapis.com/css?family=Exo+2" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Exo+2|VT323" rel="stylesheet"> 
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 		<link rel="stylesheet" type="text/css" href="normalize.css">
 		<link rel="stylesheet" href="stylesheet.css">
