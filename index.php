@@ -56,7 +56,7 @@
 						<li> <span class="Question">Kan autism behandlas?</span> </li>
 						<li> <span class="Answer">Ja! Med förståelse och respekt.</span> </li>
 						<br />
-						<li> <span class="Question">Människor med autism vill inte ha socal kontakt</span> </li>
+						<li> <span class="Question">Människor med autism vill inte ha social kontakt.</span> </li>
 						<li> <span class="Answer">Många med autism vill ha vänner och relationer, men kan ha svårt att veta hur.</span> </li>
 						<br />
 						<li> <span class="Question">Personer med autism har inga känslor.</span> </li>
