@@ -24,4 +24,8 @@
 	#footer {
 		display: none;
 	}
+	/* Dropdown Content (Hidden by Default) */
+	.dropdown-content {
+		min-width: 97px;
+	}
 }

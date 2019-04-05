@@ -57,15 +57,19 @@ a {
 	padding: 3px;
 	padding-right: 5px;
 	border-radius: 0px 0px 5px 0px;
+	max-height: 20px;
 	/*border-bottom: 1px solid #676767;
 	border-right: 1px solid #676767;*/
 }
+
+/* Alla knapp klasser */
+
 /* Alla knappar */
 .button {
     font-family: 'Exo 2', sans-serif;
 	background-color: #DBDBDB;
 	/*border: 1px solid black;*/
-	border-radius: 2px;
+	/*border-radius: 2px;*/
 	padding-left: 5px;
 	padding-right: 5px;
 	margin-right: 0px;
@@ -80,6 +84,61 @@ a {
 .active {
 	background-color: #EAEAEA;
 }
+
+/* Style The Dropdown Button */
+.dropbtn {
+	font-family: 'Exo 2', sans-serif;
+	background-color: #DBDBDB;
+	padding-left: 5px;
+	padding-right: 5px;
+	margin-right: 0px;
+	transition-duration: 0.5s;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #DBDBDB;
+  min-width: 98px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+	background-color: #9B9B9B;
+	color: #696969;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+	background-color: #9B9B9B;
+	color: #696969;
+}
+
+
 /* Håller allt i rätt format på sidan */
 #Container {
 	position: absolute;

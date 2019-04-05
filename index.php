@@ -31,8 +31,17 @@
 		<!-- Början av navigationen -->
 		<span id="navigation">
 			<a class="button active" href="index.php">Hem</a>
+			
 			<a class="button" href="index.php">Information</a>
-			<a class="button" href="index.php">Diagnoser</a>
+			
+			<div class="dropdown">
+			<a href="#" class="dropbtn"><i class="fas fa-angle-down"></i> </i>Diagnoser</a>
+				<div class="dropdown-content">
+					<a href="#">Autism</a>
+					<a href="#">ADHD</a>
+				</div>
+			</div> 
+			
 			<a class="button" href="index.php">Om</a>
 		</span>
 		
