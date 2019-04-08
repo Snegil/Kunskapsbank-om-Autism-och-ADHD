@@ -32,10 +32,10 @@
 		<span id="navigation">
 			<a class="button active" href="index.php">Hem</a>
 			
-			<a class="button" href="index.php">Information</a>
+			<a class="button" href="snabbfakta.php">Snabbfakta</a>
 			
 			<div class="dropdown">
-			<a href="#" class="dropbtn"><i class="fas fa-angle-down"></i> </i>Diagnoser</a>
+			<a class="dropbtn"><i class="fas fa-angle-down"></i> </i>Diagnoser</a>
 				<div class="dropdown-content">
 					<a href="#">Autism</a>
 					<a href="#">ADHD</a>
@@ -46,14 +46,14 @@
 		</span>
 		
 		<div id="Container">
-			<div id="introduction">
+			<div id="box">
 				<!-- Introductions titeln -->
-				<div id="introduction-title">
+				<div id="box-title">
 					En hemsida skapad av en individ med autism och ADHD <br />
 				</div>
-				<div id="introduction-text">
+				<div id="box-text">
 					<!-- Introductions citatet -->
-					<div id="introduction-quote">
+					<div id="box-quote">
 					“
 					Jag gör det för att öka kunskapen i samhället om Autism och ADHD.
 					Jag har märkt att det behövs... 

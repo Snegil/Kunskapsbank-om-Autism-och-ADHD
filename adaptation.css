@@ -1,5 +1,14 @@
-/*Mobil anpassning*/
-/*Anpassning för enheter med mindre än 600px bredd*/
+/* Ipad/Surfplatta anpassning */
+/* Anpassning för enheter med mindre än 1024px bredd */
+@media screen and (max-width: 1024px) {
+	#box {
+		width: 85%;
+	}
+}
+
+
+/* Mobil anpassning */
+/* Anpassning för enheter med mindre än 600px bredd */
 @media screen and (max-width: 600px) {
 	/* Styr Autism loggan direkt, är 40px höjd och bredden är så stor den kan bli utan att bli dålig */
 	#autism {
@@ -15,7 +24,7 @@
 		padding-left: 0;
 		padding-right: 0;
 	}
-	#introduction {
+	#box {
 		width: 100%;
 	}
 	#List {
