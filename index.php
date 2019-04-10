@@ -8,7 +8,7 @@
 		Kunskapsbank - Hem
 		</title>
 		<link rel='shortcut icon' type='image/x-icon' href='favicon.ico' />
-		<link href="https://fonts.googleapis.com/css?family=Exo+2|VT323" rel="stylesheet"> 
+		<link href="https://fonts.googleapis.com/css?family=Exo+2|VT323" rel="stylesheet">
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 		<link rel="stylesheet" type="text/css" href="normalize.css">
 		<link rel="stylesheet" href="stylesheet.css">
@@ -25,28 +25,30 @@
 				<a target="_blank" href="https://www.autism.se/">
 					<img id="autism" src="images/AutismBild/Autismband.png">
 				</a>
-			</span>
+			</span> 
 
 		</div>
-		<!-- Början av navigationen -->
-		<span id="navigation">
-			<a class="button active" href="index.php">Hem</a>
-			
-			<a class="button" href="snabbfakta.php">Snabbfakta</a>
-			
-			<div class="dropdown">
-			<a class="dropbtn"><i class="fas fa-angle-down"></i> </i>Diagnoser</a>
-				<div class="dropdown-content">
-					<a href="#">Autism</a>
-					<a href="#">ADHD</a>
-				</div>
-			</div> 
-			
-			<a class="button" href="index.php">Om</a>
-		</span>
 		
 		<div id="Container">
 			<div id="box">
+				
+				<!-- Början av navigationen -->
+				<span id="navigation">
+					<a class="button active" href="index.php">Hem</a>
+					
+					<a class="button" href="snabbfakta.php">Snabbfakta</a>
+					
+					<div class="dropdown">
+						
+					<a class="dropbtn"><i class="fas fa-angle-down"></i> </i>Diagnoser</a>
+						<div class="dropdown-content">
+							<a href="#">Autism</a>
+							<a href="#">ADHD</a>
+						</div>
+					</div> 
+					<a class="button" href="index.php">Om</a>
+					
+				</span>
 				<!-- Introductions titeln -->
 				<div id="box-title">
 					En hemsida skapad av en individ med autism och ADHD <br />
@@ -81,17 +83,17 @@
 						Källa: <a target="_blank" href="https://www.autism.se/myter_och_fakta">Autism och Asperger förbundet</a>
 						</span>
 					</ul>
-					
+					<!-- Början av footern -->
+					<div id="footer">
+						Pågående Projekt i tidig utveckling |
+						<!-- Källan till Autism bandet och autism favicon -->
+						Vector Art från <a target="_blank" href="https://vecteezy.com">Vecteezy.com</a> |
+						<!-- Källan till bakgrunden -->
+						Bakgrund från <a target="_blank" href="https://www.svgbackgrounds.com/">SVGBackgrounds</a>
+					</div>
 				</div>
 			</div>
 		</div>
-		<!-- Början av footern -->
-		<div id="footer">
-			Pågående Projekt i tidig utveckling |
-			<!-- Källan till Autism bandet och autism favicon -->
-			Vector Art från <a target="_blank" href="https://vecteezy.com">Vecteezy.com</a> |
-			<!-- Källan till bakgrunden -->
-			Bakgrund från <a target="_blank" href="https://www.svgbackgrounds.com/">SVGBackgrounds</a>
-		</div>
+		
 	</body>
 </html>

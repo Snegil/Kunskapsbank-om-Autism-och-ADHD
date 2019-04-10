@@ -29,25 +29,25 @@
 			</span>
 
 		</div>
-		<!-- Början av navigationen -->
-		<span id="navigation">
-			<a class="button" href="index.php">Hem</a>
-			
-			<a class="button active" href="snabbfakta.php">Snabbfakta</a>
-			
-			<div class="dropdown">
-			<a href="#" class="dropbtn"><i class="fas fa-angle-down"></i> </i>Diagnoser</a>
-				<div class="dropdown-content">
-					<a href="#">Autism</a>
-					<a href="#">ADHD</a>
-				</div>
-			</div> 
-			
-			<a class="button" href="index.php">Om</a>
-		</span>
 		
 		<div id="Container">
 			<div id="box">
+				<!-- Början av navigationen -->
+				<div id="navigation">
+					<a class="button" href="index.php">Hem</a>
+					
+					<a class="button active" href="snabbfakta.php">Snabbfakta</a>
+					
+					<div class="dropdown">
+					<a href="#" class="dropbtn"><i class="fas fa-angle-down"></i> </i>Diagnoser</a>
+						<div class="dropdown-content">
+							<a href="#">Autism</a>
+							<a href="#">ADHD</a>
+						</div>
+					</div> 
+					
+					<a class="button" href="index.php">Om</a>
+				</div>
 				<!-- Introductions titeln -->
 				<div id="box-title">
 					Snabbfakta
@@ -57,20 +57,32 @@
 						
 						<!-- Knapparna som styr om Autism, ADHD, List taggarna syns eller inte -->
 						<div>
-							<button onclick="FastToggle('AutismText')">Autism</button>
-							<button onclick="FastToggle('ADHDText')">ADHD</button>
-							<button onclick="FastToggle('List')">Myter och Fakta</button>
+							<button class="Snabbfakta-button" onclick="FastToggle('AutismText')">Autism</button>
+							<button class="Snabbfakta-button" onclick="FastToggle('ADHDText')">ADHD</button>
+							<button class="Snabbfakta-button" onclick="FastToggle('List')">Myter och Fakta</button>
 						</div>
-						<div id="AutismText">
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla aliquet ex tellus, sed viverra leo laoreet sed. Suspendisse potenti. Curabitur sit amet arcu odio. Donec euismod gravida mauris, quis interdum justo porttitor et. Ut tempor felis non orci scelerisque lobortis. Fusce et dolor nisl. In hac habitasse platea dictumst.
-							Nunc convallis tincidunt diam id aliquam. Vivamus ornare varius nisi et interdum. Praesent et leo et elit blandit porttitor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur luctus finibus blandit. Sed scelerisque cursus tristique. In porta tincidunt rhoncus. Sed pellentesque, lectus vitae posuere pulvinar, felis felis vehicula risus, non porta sapien mi quis nisi. Duis ac sagittis urna. Vestibulum venenatis tristique faucibus. 
-						</div>
-						<div id="ADHDText">
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla aliquet ex tellus, sed viverra leo laoreet sed. Suspendisse potenti. Curabitur sit amet arcu odio. Donec euismod gravida mauris, quis interdum justo porttitor et. Ut tempor felis non orci scelerisque lobortis. Fusce et dolor nisl. In hac habitasse platea dictumst.
-							Nunc convallis tincidunt diam id aliquam. Vivamus ornare varius nisi et interdum. Praesent et leo et elit blandit porttitor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur luctus finibus blandit. Sed scelerisque cursus tristique. In porta tincidunt rhoncus. Sed pellentesque, lectus vitae posuere pulvinar, felis felis vehicula risus, non porta sapien mi quis nisi. Duis ac sagittis urna. Vestibulum venenatis tristique faucibus. 
-						</div>
+						<fieldset id="AutismText">
+							<legend>Autism</legend>
+							<?php
+								$myfilename = "SnabbAutism.txt";
+									if(file_exists($myfilename)){
+									echo file_get_contents($myfilename);
+							    }
+							?> 
+						</fieldset>
+						<fieldset id="ADHDText">
+							<legend>ADHD</legend>
+							 <?php
+								$myfilename = "SnabbADHD.txt";
+									if(file_exists($myfilename)){
+									echo file_get_contents($myfilename);
+							    }
+							?> 
+						</fieldset>
 						<!-- Listan som innehåller alla myter och fakta -->
-						<ul id="List">
+						<fieldset id="List">
+							<legend>Myter och Fakta</legend>
+						<ul>
 							<li> <span class="Question">Kan autism behandlas?</span> </li>
 							<li> <span class="Answer">Ja! Med förståelse och respekt.</span> </li>
 							<br />
@@ -90,17 +102,19 @@
 							Källa: <a target="_blank" href="https://www.autism.se/myter_och_fakta">Autism och Asperger förbundet</a>
 							</span>
 						</ul>
+						</fieldset>
+						<!-- Början av footern -->
+						<div id="footer">
+							Pågående Projekt i tidig utveckling |
+							<!-- Källan till Autism bandet och autism favicon -->
+							Vector Art från <a target="_blank" href="https://vecteezy.com">Vecteezy.com</a> |
+							<!-- Källan till bakgrunden -->
+							Bakgrund från <a target="_blank" href="https://www.svgbackgrounds.com/">SVGBackgrounds</a>
+						</div>
 					</div>
 					
 			</div>
 		</div>
-		<!-- Början av footern -->
-		<div id="footer">
-			Pågående Projekt i tidig utveckling |
-			<!-- Källan till Autism bandet och autism favicon -->
-			Vector Art från <a target="_blank" href="https://vecteezy.com">Vecteezy.com</a> |
-			<!-- Källan till bakgrunden -->
-			Bakgrund från <a target="_blank" href="https://www.svgbackgrounds.com/">SVGBackgrounds</a>
-		</div>
+		
 	</body>
 </html>
