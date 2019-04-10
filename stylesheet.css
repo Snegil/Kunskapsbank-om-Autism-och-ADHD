@@ -14,9 +14,28 @@ a {
 	text-decoration: none;
 	transition-duration: 0.5s;
 }
+fieldset {
+	background-color: white;
+}
 legend {
-	text-shadow: 0 0 1px #6B6B6B;
+	border: 1px solid #979797;
+	border-radius: 5px;
+	box-shadow: 0px 2px 3px 1px #D8D8D8;
+	background-color: white;
 	font-weight: bold;
+	cursor: pointer;
+}
+legend:hover  {
+	text-shadow: 1px 1px #d8d8d8;
+}
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
 }
 /*Top boxen som loggan kommer vara i*/
 #topbox {
@@ -191,9 +210,12 @@ legend {
 	width: 80%;
 	text-align: left;
 }
+#AutismText-file {
+	display: none;
+}
 /* Snabbfakta om ADHD */
 #ADHDText {
-	display: none;
+	display: inline-block;
 	margin-bottom: 5px;
 	-moz-box-shadow: 0 0 3px #ccc;
 	-webkit-box-shadow: 0 0 3px #ccc;
@@ -201,15 +223,21 @@ legend {
 	width: 80%;
 	text-align: left;
 }
+#ADHDText-file {
+	display: none;
+}
 /* Listan som bestämmer hur listan med myter och fakta ser ut */
 #List {
-	display: none;
+	display: inline-block;
 	text-align: left;
 	width: 50%;
 	list-style-type: square;
 	-moz-box-shadow: 0 0 3px #ccc;
 	-webkit-box-shadow: 0 0 3px #ccc;
 	box-shadow: 0 0 3px #ccc;
+}
+#MoFText-file {
+	display: none;
 }
 /* Frågan till myt eller fakta */
 .Question {

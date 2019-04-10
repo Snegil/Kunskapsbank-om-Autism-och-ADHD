@@ -40,7 +40,7 @@
 					
 					<div class="dropdown">
 						
-					<a class="dropbtn"><i class="fas fa-angle-down"></i> </i>Diagnoser</a>
+					<a href="#" class="dropbtn"><i class="fas fa-angle-down"></i> </i>Diagnoser</a>
 						<div class="dropdown-content">
 							<a href="#">Autism</a>
 							<a href="#">ADHD</a>
@@ -62,27 +62,7 @@
 					”
 					&ndash;Utvecklarn
 					</div>
-					<!-- Listan som innehåller alla myter och fakta -->
-					<ul id="List">
-						<li> <span class="Question">Kan autism behandlas?</span> </li>
-						<li> <span class="Answer">Ja! Med förståelse och respekt.</span> </li>
-						<br />
-						<li> <span class="Question">Människor med autism vill inte ha social kontakt.</span> </li>
-						<li> <span class="Answer">Många med autism vill ha vänner och relationer, men kan ha svårt att veta hur.</span> </li>
-						<br />
-						<li> <span class="Question">Personer med autism har inga känslor.</span> </li>
-						<li> <span class="Answer">Personer med autism har känslor som alla andra, men kanske inte visar dem på ett sätt som stämmer med omgivningens förväntningar.</span> </li>
-						<br />
-						<li> <span class="Question">Barn som har autism växer ifrån det.</span> </li>
-						<li> <span class="Answer">Barn med autism växer upp till vuxna med autism.</span> </li>
-						<br />
-						<li> <span class="Question">Aspergers syndrom är ett påhitt för att ge ursäkter åt föräldrar till ouppfostrade barn.</span> </li>
-						<li> <span class="Answer">Aspergers syndrom är en utvecklingsrelaterad funktionsnedsättning med tydliga diagnostiska kriterier. Att inte ta hänsyn till funktionsnedsättningen kan vara ödeläggande för individen.</span> </li>
-						<br />
-						<span class="Source">
-						Källa: <a target="_blank" href="https://www.autism.se/myter_och_fakta">Autism och Asperger förbundet</a>
-						</span>
-					</ul>
+					
 					<!-- Början av footern -->
 					<div id="footer">
 						Pågående Projekt i tidig utveckling |

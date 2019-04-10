@@ -56,52 +56,58 @@
 					
 						
 						<!-- Knapparna som styr om Autism, ADHD, List taggarna syns eller inte -->
-						<div>
+						<!-- <div>
 							<button class="Snabbfakta-button" onclick="FastToggle('AutismText')">Autism</button>
 							<button class="Snabbfakta-button" onclick="FastToggle('ADHDText')">ADHD</button>
 							<button class="Snabbfakta-button" onclick="FastToggle('List')">Myter och Fakta</button>
-						</div>
+						</div> -->
 						<fieldset id="AutismText">
-							<legend>Autism</legend>
+							<legend class="noselect" onclick="FastToggle('AutismText-file')">Autism</legend>
+							<span id="AutismText-file">
 							<?php
 								$myfilename = "SnabbAutism.txt";
 									if(file_exists($myfilename)){
 									echo file_get_contents($myfilename);
 							    }
-							?> 
+							?>
+							</span>
 						</fieldset>
 						<fieldset id="ADHDText">
-							<legend>ADHD</legend>
+							<legend class="noselect" onclick="FastToggle('ADHDText-file')">ADHD</legend>
+							<span id="ADHDText-file">
 							 <?php
 								$myfilename = "SnabbADHD.txt";
 									if(file_exists($myfilename)){
 									echo file_get_contents($myfilename);
 							    }
-							?> 
+							?>
+							</span>
 						</fieldset>
 						<!-- Listan som innehåller alla myter och fakta -->
 						<fieldset id="List">
-							<legend>Myter och Fakta</legend>
-						<ul>
-							<li> <span class="Question">Kan autism behandlas?</span> </li>
-							<li> <span class="Answer">Ja! Med förståelse och respekt.</span> </li>
-							<br />
-							<li> <span class="Question">Människor med autism vill inte ha social kontakt.</span> </li>
-							<li> <span class="Answer">Många med autism vill ha vänner och relationer, men kan ha svårt att veta hur.</span> </li>
-							<br />
-							<li> <span class="Question">Personer med autism har inga känslor.</span> </li>
-							<li> <span class="Answer">Personer med autism har känslor som alla andra, men kanske inte visar dem på ett sätt som stämmer med omgivningens förväntningar.</span> </li>
-							<br />
-							<li> <span class="Question">Barn som har autism växer ifrån det.</span> </li>
-							<li> <span class="Answer">Barn med autism växer upp till vuxna med autism.</span> </li>
-							<br />
-							<li> <span class="Question">Aspergers syndrom är ett påhitt för att ge ursäkter åt föräldrar till ouppfostrade barn.</span> </li>
-							<li> <span class="Answer">Aspergers syndrom är en utvecklingsrelaterad funktionsnedsättning med tydliga diagnostiska kriterier. Att inte ta hänsyn till funktionsnedsättningen kan vara ödeläggande för individen.</span> </li>
-							<br />
-							<span class="Source">
-							Källa: <a target="_blank" href="https://www.autism.se/myter_och_fakta">Autism och Asperger förbundet</a>
+							<legend class="noselect" onclick="FastToggle('MoFText-file')">Myter och Fakta</legend>
+							<span id="MoFText-file">
+								<ul>
+									<li> <span class="Question">Kan autism behandlas?</span> </li>
+									<li> <span class="Answer">Ja! Med förståelse och respekt.</span> </li>
+									<br />
+									<li> <span class="Question">Människor med autism vill inte ha social kontakt.</span> </li>
+									<li> <span class="Answer">Många med autism vill ha vänner och relationer, men kan ha svårt att veta hur.</span> </li>
+									<br />
+									<li> <span class="Question">Personer med autism har inga känslor.</span> </li>
+									<li> <span class="Answer">Personer med autism har känslor som alla andra, men kanske inte visar dem på ett sätt som stämmer med omgivningens förväntningar.</span> </li>
+									<br />
+									<li> <span class="Question">Barn som har autism växer ifrån det.</span> </li>
+									<li> <span class="Answer">Barn med autism växer upp till vuxna med autism.</span> </li>
+									<br />
+									<li> <span class="Question">Aspergers syndrom är ett påhitt för att ge ursäkter åt föräldrar till ouppfostrade barn.</span> </li>
+									<li> <span class="Answer">Aspergers syndrom är en utvecklingsrelaterad funktionsnedsättning med tydliga diagnostiska kriterier. Att inte ta hänsyn till funktionsnedsättningen kan vara ödeläggande för individen.</span> </li>
+									<br />
+									<span class="Source">
+									Källa: <a target="_blank" href="https://www.autism.se/myter_och_fakta">Autism och Asperger förbundet</a>
+									</span>
+								</ul>
 							</span>
-						</ul>
 						</fieldset>
 						<!-- Början av footern -->
 						<div id="footer">
