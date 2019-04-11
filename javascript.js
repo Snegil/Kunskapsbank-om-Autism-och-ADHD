@@ -6,3 +6,7 @@ function FastToggle(ID) {
 		x.style.display = "none";
 	}
 } 
+function toggle_visibility(id) {
+   var e = document.getElementById(id);
+   e.slideToggle('fast');
+}

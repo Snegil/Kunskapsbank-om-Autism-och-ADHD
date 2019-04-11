@@ -13,6 +13,12 @@
 		<link rel="stylesheet" type="text/css" href="normalize.css">
 		<link rel="stylesheet" href="stylesheet.css">
 		<link rel="stylesheet" href="adaptation.css">
+		<script src="https://code.jquery.com/jquery-3.4.0.js">
+			function toggle_visibility(id) {
+			   var e = document.getElementById(id);
+			   e.slideToggle('fast');
+			}
+		</script>
 		<script src="javascript.js"></script>
 	</head>
 	<body>
