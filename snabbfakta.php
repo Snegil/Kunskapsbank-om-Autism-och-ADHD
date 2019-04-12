@@ -14,10 +14,11 @@
 		<link rel="stylesheet" href="stylesheet.css">
 		<link rel="stylesheet" href="adaptation.css">
 		<script src="https://code.jquery.com/jquery-3.4.0.js">
-			function toggle_visibility(id) {
-			   var e = document.getElementById(id);
-			   e.slideToggle('fast');
-			}
+			    $(document).ready(function() {
+			        $('.fieldshow').click(function() {
+			                $('.field').slideToggle("fast");
+			        });
+			    });
 		</script>
 		<script src="javascript.js"></script>
 	</head>
@@ -68,8 +69,8 @@
 							<button class="Snabbfakta-button" onclick="FastToggle('List')">Myter och Fakta</button>
 						</div> -->
 						<fieldset id="AutismText">
-							<legend class="noselect" onclick="FastToggle('AutismText-file')">Autism</legend>
-							<span id="AutismText-file">
+							<legend class="noselect fieldshow" onclick="FastToggle('AutismText-file')">Autism</legend>
+							<span class="field" id="AutismText-file">
 							<?php
 								$myfilename = "SnabbAutism.txt";
 									if(file_exists($myfilename)){

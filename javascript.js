@@ -10,3 +10,6 @@ function toggle_visibility(id) {
    var e = document.getElementById(id);
    e.slideToggle('fast');
 }
+$(".faded").each(function(i) {
+    $(this).delay(i * 300).css('opacity',0).animate({'opacity': 1}, 500);
+});
