@@ -14,11 +14,6 @@
 		<link rel="stylesheet" href="stylesheet.css">
 		<link rel="stylesheet" href="adaptation.css">
 		<script src="https://code.jquery.com/jquery-3.4.0.js">
-			    $(document).ready(function() {
-			        $('.fieldshow').click(function() {
-			                $('.field').slideToggle("fast");
-			        });
-			    });
 		</script>
 		<script src="javascript.js"></script>
 	</head>
