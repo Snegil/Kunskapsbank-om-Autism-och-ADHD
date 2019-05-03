@@ -56,15 +56,19 @@
 				</div>
 				<div id="box-text">
 					
-						
-						<!-- Knapparna som styr om Autism, ADHD, List taggarna syns eller inte -->
-						<!-- <div>
-							<button class="Snabbfakta-button" onclick="FastToggle('AutismText')">Autism</button>
-							<button class="Snabbfakta-button" onclick="FastToggle('ADHDText')">ADHD</button>
-							<button class="Snabbfakta-button" onclick="FastToggle('List')">Myter och Fakta</button>
-						</div> -->
 						<fieldset id="AutismText">
-							<legend class="noselect fieldshow" onclick="FastToggle('AutismText-file')">Autism</legend>
+							<legend class="noselect">
+								<div class="toggleable" onclick="FastToggle('AutismText-file')">
+								Autism
+								</div>
+								
+								<div class="toggleable" onclick="FastToggle('ADHDText-file')>
+								ADHD
+								</div>
+								
+								
+							</legend>
+							
 							<span class="field" id="AutismText-file">
 							<?php
 								$myfilename = "SnabbAutism.txt";
@@ -73,21 +77,14 @@
 							    }
 							?>
 							</span>
-						</fieldset>
-						<fieldset id="ADHDText">
-							<legend class="noselect" onclick="FastToggle('ADHDText-file')">ADHD</legend>
-							<span id="ADHDText-file">
-							 <?php
+							<span class="field" id="ADHDText-file">
+								<?php
 								$myfilename = "SnabbADHD.txt";
 									if(file_exists($myfilename)){
 									echo file_get_contents($myfilename);
 							    }
-							?>
+								?>
 							</span>
-						</fieldset>
-						<!-- Listan som innehåller alla myter och fakta -->
-						<fieldset id="List">
-							<legend class="noselect" onclick="FastToggle('MoFText-file')">Myter och Fakta</legend>
 							<span id="MoFText-file">
 								<ul>
 									<li> <span class="Question">Kan autism behandlas?</span> </li>
@@ -110,7 +107,9 @@
 									</span>
 								</ul>
 							</span>
+							
 						</fieldset>
+						
 						<!-- Början av footern -->
 						<div id="footer">
 							Pågående Projekt i tidig utveckling |

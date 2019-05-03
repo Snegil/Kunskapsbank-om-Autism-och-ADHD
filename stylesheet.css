@@ -16,17 +16,7 @@ a {
 }
 fieldset {
 	background-color: white;
-}
-legend {
-	border: 1px solid #979797;
-	border-radius: 5px;
-	box-shadow: 0px 2px 3px 1px #D8D8D8;
-	background-color: white;
-	font-weight: bold;
-	cursor: pointer;
-}
-legend:hover  {
-	text-shadow: 1px 1px #d8d8d8;
+	text-align: center;
 }
 .noselect {
   -webkit-touch-callout: none; /* iOS Safari */
@@ -196,35 +186,33 @@ legend:hover  {
 	text-align: center;
 	font-size: 17px;
 }
-.Snabbfakta-button {
-	padding: 1px;
-	height: 25px;
+/* Texterna i <legend> som man kan klicka på för att dölja och visa texter */
+.toggleable {
+	display: inline-block;
+	border: 1px solid #979797;
+	border-radius: 5px;
+	box-shadow: 0px 2px 3px 1px #D8D8D8;
+	background-color: white;
+	font-weight: bold;
+	padding: 0px 5px;
+	cursor: pointer;
+}
+.toggleable:hover {
+	text-decoration: underline;
 }
 /* Snabbfakta om Autism */
 #AutismText {	
 	display: inline-block;
 	margin-bottom: 5px;
-	-moz-box-shadow: 0 0 3px #ccc;
-	-webkit-box-shadow: 0 0 3px #ccc;
-	box-shadow: 0 0 3px #ccc;
 	width: 80%;
 	text-align: left;
-}
-#AutismText-file {
-	display: none;
 }
 /* Snabbfakta om ADHD */
 #ADHDText {
-	display: inline-block;
+	display: none;
 	margin-bottom: 5px;
-	-moz-box-shadow: 0 0 3px #ccc;
-	-webkit-box-shadow: 0 0 3px #ccc;
-	box-shadow: 0 0 3px #ccc;
 	width: 80%;
 	text-align: left;
-}
-#ADHDText-file {
-	display: none;
 }
 /* Listan som bestämmer hur listan med myter och fakta ser ut */
 #List {
@@ -232,9 +220,6 @@ legend:hover  {
 	text-align: left;
 	width: 50%;
 	list-style-type: square;
-	-moz-box-shadow: 0 0 3px #ccc;
-	-webkit-box-shadow: 0 0 3px #ccc;
-	box-shadow: 0 0 3px #ccc;
 }
 #MoFText-file {
 	display: none;
