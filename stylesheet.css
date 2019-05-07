@@ -180,50 +180,6 @@ fieldset {
 	font-size: 15px;
 	color: dimgray;
 }
-/* box-text innehåller #list och bestämmer att allt inom lådan är i mitten */
-#box-text {
-	padding: 5px;
-	text-align: center;
-	font-size: 17px;
-}
-/* Texterna i <legend> som man kan klicka på för att dölja och visa texter */
-.toggleable {
-	display: inline-block;
-	border: 1px solid #979797;
-	border-radius: 5px;
-	box-shadow: 0px 2px 3px 1px #D8D8D8;
-	background-color: white;
-	font-weight: bold;
-	padding: 0px 5px;
-	cursor: pointer;
-}
-.toggleable:hover {
-	text-decoration: underline;
-}
-/* Snabbfakta om Autism */
-#AutismText {	
-	display: inline-block;
-	margin-bottom: 5px;
-	width: 80%;
-	text-align: left;
-}
-/* Snabbfakta om ADHD */
-#ADHDText {
-	display: none;
-	margin-bottom: 5px;
-	width: 80%;
-	text-align: left;
-}
-/* Listan som bestämmer hur listan med myter och fakta ser ut */
-#List {
-	display: inline-block;
-	text-align: left;
-	width: 50%;
-	list-style-type: square;
-}
-#MoFText-file {
-	display: none;
-}
 /* Frågan till myt eller fakta */
 .Question {
 	color: black;

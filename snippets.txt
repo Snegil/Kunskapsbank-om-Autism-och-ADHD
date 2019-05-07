@@ -1,3 +1,58 @@
+###### Texter 2019-05-07
+<fieldset id="AutismText">
+							<legend class="noselect">
+								<div class="toggleable" onclick="FastToggle('AutismText-file')">
+								Autism
+								</div>
+								
+								<div class="toggleable" onclick="FastToggle('ADHDText-file')>
+								ADHD
+								</div>
+								
+								
+							</legend>
+							
+							<span class="field" id="AutismText-file">
+							<?php
+								$myfilename = "SnabbAutism.txt";
+									if(file_exists($myfilename)){
+									echo file_get_contents($myfilename);
+							    }
+							?>
+							</span>
+							<span class="field" id="ADHDText-file">
+								<?php
+								$myfilename = "SnabbADHD.txt";
+									if(file_exists($myfilename)){
+									echo file_get_contents($myfilename);
+							    }
+								?>
+							</span>
+							<span id="MoFText-file">
+								<ul>
+									<li> <span class="Question">Kan autism behandlas?</span> </li>
+									<li> <span class="Answer">Ja! Med förståelse och respekt.</span> </li>
+									<br />
+									<li> <span class="Question">Människor med autism vill inte ha social kontakt.</span> </li>
+									<li> <span class="Answer">Många med autism vill ha vänner och relationer, men kan ha svårt att veta hur.</span> </li>
+									<br />
+									<li> <span class="Question">Personer med autism har inga känslor.</span> </li>
+									<li> <span class="Answer">Personer med autism har känslor som alla andra, men kanske inte visar dem på ett sätt som stämmer med omgivningens förväntningar.</span> </li>
+									<br />
+									<li> <span class="Question">Barn som har autism växer ifrån det.</span> </li>
+									<li> <span class="Answer">Barn med autism växer upp till vuxna med autism.</span> </li>
+									<br />
+									<li> <span class="Question">Aspergers syndrom är ett påhitt för att ge ursäkter åt föräldrar till ouppfostrade barn.</span> </li>
+									<li> <span class="Answer">Aspergers syndrom är en utvecklingsrelaterad funktionsnedsättning med tydliga diagnostiska kriterier. Att inte ta hänsyn till funktionsnedsättningen kan vara ödeläggande för individen.</span> </li>
+									<br />
+									<span class="Source">
+									Källa: <a target="_blank" href="https://www.autism.se/myter_och_fakta">Autism och Asperger förbundet</a>
+									</span>
+								</ul>
+							</span>
+							
+						</fieldset>
+
 ###### Footer 2019-04-01
 
 #CSS
