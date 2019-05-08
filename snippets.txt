@@ -1,3 +1,12 @@
+###### Citat 2019-05-08
+					<div id="box-quote">
+						“
+						Jag gör det för att öka kunskapen i samhället om Autism och ADHD.
+						Jag har märkt att det behövs... 
+						”
+						&ndash;Utvecklarn
+					</div>
+
 ###### Texter 2019-05-07
 <fieldset id="AutismText">
 							<legend class="noselect">

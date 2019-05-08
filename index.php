@@ -44,6 +44,7 @@
 						<div class="dropdown-content">
 							<a href="#">Autism</a>
 							<a href="#">ADHD</a>
+							<a href="#">Erfarenheter</a>
 						</div>
 					</div> 
 					<a class="button" href="index.php">Om</a>
@@ -51,18 +52,16 @@
 				</span>
 				<!-- Introductions titeln -->
 				<div id="box-title">
-					En hemsida skapad av en individ med autism och ADHD <br />
+					En webbsida skapad av en individ med Autism och Adhd!
 				</div>
-				<div id="box-text">
-					<!-- Introductions citatet -->
-					<div id="box-quote">
-					“
-					Jag gör det för att öka kunskapen i samhället om Autism och ADHD.
-					Jag har märkt att det behövs... 
-					”
-					&ndash;Utvecklarn
-					</div>
-					
+				<div id="box-quote">
+						“
+						Jag gör det för att öka kunskapen i samhället om Autism och ADHD.
+						Jag har märkt att det behövs... 
+						”
+						&ndash;Utvecklarn
+				</div>
+				
 					<!-- Början av footern -->
 					<div id="footer">
 						Pågående Projekt i tidig utveckling |

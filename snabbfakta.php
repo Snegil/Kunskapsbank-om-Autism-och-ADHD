@@ -1,23 +1,31 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		
+		<!-- Meta taggar -->
 		<meta name="author" content="Snegil">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta charset="utf-8" lang="sv">
 		<title>
+			
 		Kunskapsbank - Snabbfakta
 		</title>
+		
+		<!-- Favicon -->
 		<link rel='shortcut icon' type='image/x-icon' href='favicon.ico' />
+		
+		<!-- Externa stilmallar -->
 		<link href="https://fonts.googleapis.com/css?family=Exo+2|VT323" rel="stylesheet"> 
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 		<link rel="stylesheet" type="text/css" href="normalize.css">
+		
+		<!-- Mina Stilmallar -->
 		<link rel="stylesheet" href="stylesheet.css">
 		<link rel="stylesheet" href="adaptation.css">
-		<script src="https://code.jquery.com/jquery-3.4.0.js">
-		</script>
 		<script src="javascript.js"></script>
 	</head>
 	<body>
+		
 		<div id="topbox">
 			<!-- Loggan och att loggan går till index.php -->
 			<a href="index.php">
@@ -45,71 +53,26 @@
 						<div class="dropdown-content">
 							<a href="#">Autism</a>
 							<a href="#">ADHD</a>
+							<a href="#">Erfarenheter</a>
 						</div>
 					</div> 
 					
 					<a class="button" href="index.php">Om</a>
 				</div>
+				
 				<!-- Introductions titeln -->
 				<div id="box-title">
 					Snabbfakta
 				</div>
+				
 				<div id="box-text">
-					
-						<fieldset id="AutismText">
-							<legend class="noselect">
-								<div class="toggleable" onclick="FastToggle('AutismText-file')">
-								Autism
-								</div>
-								
-								<div class="toggleable" onclick="FastToggle('ADHDText-file')>
-								ADHD
-								</div>
-								
-								
-							</legend>
-							
-							<span class="field" id="AutismText-file">
-							<?php
-								$myfilename = "SnabbAutism.txt";
-									if(file_exists($myfilename)){
-									echo file_get_contents($myfilename);
-							    }
-							?>
-							</span>
-							<span class="field" id="ADHDText-file">
-								<?php
-								$myfilename = "SnabbADHD.txt";
-									if(file_exists($myfilename)){
-									echo file_get_contents($myfilename);
-							    }
-								?>
-							</span>
-							<span id="MoFText-file">
-								<ul>
-									<li> <span class="Question">Kan autism behandlas?</span> </li>
-									<li> <span class="Answer">Ja! Med förståelse och respekt.</span> </li>
-									<br />
-									<li> <span class="Question">Människor med autism vill inte ha social kontakt.</span> </li>
-									<li> <span class="Answer">Många med autism vill ha vänner och relationer, men kan ha svårt att veta hur.</span> </li>
-									<br />
-									<li> <span class="Question">Personer med autism har inga känslor.</span> </li>
-									<li> <span class="Answer">Personer med autism har känslor som alla andra, men kanske inte visar dem på ett sätt som stämmer med omgivningens förväntningar.</span> </li>
-									<br />
-									<li> <span class="Question">Barn som har autism växer ifrån det.</span> </li>
-									<li> <span class="Answer">Barn med autism växer upp till vuxna med autism.</span> </li>
-									<br />
-									<li> <span class="Question">Aspergers syndrom är ett påhitt för att ge ursäkter åt föräldrar till ouppfostrade barn.</span> </li>
-									<li> <span class="Answer">Aspergers syndrom är en utvecklingsrelaterad funktionsnedsättning med tydliga diagnostiska kriterier. Att inte ta hänsyn till funktionsnedsättningen kan vara ödeläggande för individen.</span> </li>
-									<br />
-									<span class="Source">
-									Källa: <a target="_blank" href="https://www.autism.se/myter_och_fakta">Autism och Asperger förbundet</a>
-									</span>
-								</ul>
-							</span>
-							
-						</fieldset>
-						
+						<span id="ButtonContainer">
+							<a class="TextButton" href="#" onclick="#">Autism</a>
+							<a class="TextButton BorderTop" href="#" onclick="#">ADHD</a>
+							<a class="TextButton BorderTop" href="#" onclick="#">Myter & Fakta</a>
+						</span>
+				</div>
+				
 						<!-- Början av footern -->
 						<div id="footer">
 							Pågående Projekt i tidig utveckling |
@@ -118,10 +81,8 @@
 							<!-- Källan till bakgrunden -->
 							Bakgrund från <a target="_blank" href="https://www.svgbackgrounds.com/">SVGBackgrounds</a>
 						</div>
-					</div>
-					
+				</div>	
 			</div>
-		</div>
 		
 	</body>
 </html>
