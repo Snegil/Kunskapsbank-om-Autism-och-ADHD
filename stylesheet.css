@@ -8,12 +8,14 @@ body {
 	font-family: Arial, Helvetica, sans-serif;
 }
 
+/*Direkt tag manipulering eller allmäna klasser som kan användas till allt */
 /* Alla <a> taggar har ingen text dekoration eller annan färg */
 a {
 	color: inherit;
 	text-decoration: none;
 	transition-duration: 0.5s;
 }
+/* Gör så att när man hovrar eller drar över en div/span/text så markeras den inte om man har denna class */
 .noselect {
   -webkit-touch-callout: none; /* iOS Safari */
     -webkit-user-select: none; /* Safari */
@@ -33,12 +35,6 @@ a {
 /* Styr loggan direkt, 65px höjd och tar 2s för en transform */
 #logo {
 	height: 65px;
-	transition-duration: 1s;
-}
-/* Inverterar alla färger i loggan så att man ser när man hovrar över den */
-#logo:hover {
-	filter: invert(50%);
-	-webkit-filter: invert(50%);
 }
 /* Sätter en Float till höger så att autism bilden är till höger */
 #autismContainer {
@@ -59,6 +55,12 @@ a {
 	filter: brightness(120%);
 	-webkit-filter: brightness(120%);
 }
+
+
+
+/* NAVIGATIONEN BÖRJAR HÄR */
+
+
 /* Navigations som innehåller alla knappar */
 #navigation {
 	display: inline-block;
@@ -69,7 +71,7 @@ a {
 	max-height: 20px;
 }
 
-/* Alla knapp klasser */
+/* Alla knapp klasser till navigation */
 
 /* Alla knappar */
 .button {
@@ -88,9 +90,9 @@ a {
 /* Sätter in <a class="button active"> till den knapp som går till sidan man är på */
 .active {
 	background-color: #EAEAEA;
-	-moz-box-shadow: 0 0 2px #000;
-	-webkit-box-shadow: 0 0 2px #000;
-	box-shadow: 0 0 2px #000;
+	-moz-box-shadow: inset 0 0 2px #000;
+	-webkit-box-shadow: inset 0 0 2px #000;
+	box-shadow: inset 0 0 2px #000;
 }
 
 /* Sätt dit en viss stil till dropdown knappen */
@@ -146,7 +148,9 @@ a {
 	color: #696969;
 }
 
+/* SLUT PÅ NAVIGATIONEN */
 
+/* BÖRJAN AV INNEHÅLL */
 /* Håller allt i rätt format på sidan */
 #Container {
 	position: absolute;
@@ -177,15 +181,18 @@ a {
 	font-size: 15px;
 	color: dimgray;
 }
+/* Box-text är där allt ligger i under titeln styr bl.a padding */
 #box-text {
 	width: 100%;
 	padding: 0px 5px;
 	text-align: left;
 	margin: 5px 0px;
 }
+/* Håller fast knapparna till en bredd på 50px */
 #ButtonContainer {
 	width: 50px;
 }
+/* Visar hur en knapp inuti buttoncontainer ska se ut */
 .TextButton {
 	display: block;
 	background-color: #fff;
@@ -193,10 +200,12 @@ a {
 	width: 100px;
 	text-align: center;
 }
+/* Vad som händer med Knapparna när man hovrar över de */
 .TextButton:hover {
 	background-color: #E5E5E5;
 	box-shadow: inset 0px 0px 2px #C4C4C4;
 }
+/* Ger knapparna en top border */
 .BorderTop {
 	border-top: 1px solid #d8d8d8;
 }
@@ -221,4 +230,7 @@ a {
 	color: #939393;
 	width: 100%;
 	min-height: 10px;
+}
+#footer a:hover {
+	color: #A8A8A8;
 }

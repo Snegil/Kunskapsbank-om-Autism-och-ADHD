@@ -29,7 +29,7 @@
 		<div id="topbox">
 			<!-- Loggan och att loggan går till index.php -->
 			<a href="index.php">
-				<img id="logo" src="images/logotest0401-2.png">
+				<img id="logo" src="images/logotest190509-02.png">
 			</a>
 			<!-- Autism bandet -->
 			<span id="autismContainer">
