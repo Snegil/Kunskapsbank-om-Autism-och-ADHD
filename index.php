@@ -1,18 +1,29 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		
+		<!-- Meta taggar -->
 		<meta name="author" content="Snegil">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta charset="utf-8" lang="sv">
 		<title>
+			
 		Kunskapsbank - Hem
 		</title>
+		
+		<!-- Favicon -->
 		<link rel='shortcut icon' type='image/x-icon' href='favicon.ico' />
-		<link href="https://fonts.googleapis.com/css?family=Exo+2|VT323" rel="stylesheet">
+		
+		<!-- Externa stilmallar -->
+		<link href="https://fonts.googleapis.com/css?family=Exo+2|VT323" rel="stylesheet"> 
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 		<link rel="stylesheet" type="text/css" href="normalize.css">
+		
+		<!-- Mina Stilmallar -->
 		<link rel="stylesheet" href="stylesheet.css">
 		<link rel="stylesheet" href="adaptation.css">
+		<script src="javascript.js"></script>
+		
 	</head>
 	<body>
 		<div id="topbox">

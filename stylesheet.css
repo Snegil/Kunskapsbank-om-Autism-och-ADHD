@@ -194,7 +194,6 @@ a {
 }
 /* Visar hur en knapp inuti buttoncontainer ska se ut */
 .TextButton {
-	display: block;
 	background-color: #fff;
 	padding: 2px 5px;
 	width: 100px;
@@ -208,6 +207,15 @@ a {
 /* Ger knapparna en top border */
 .BorderTop {
 	border-top: 1px solid #d8d8d8;
+}
+#Autismtext {
+	display: inline-block;
+}
+#ADHDtext {
+	display: none;
+}
+#MyterOchFakta {
+	display: none;
 }
 /* Frågan till myt eller fakta */
 .Question {

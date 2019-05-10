@@ -6,10 +6,21 @@ function FastToggle(ID) {
 		x.style.display = "none";
 	}
 } 
-function toggle_visibility(id) {
-   var e = document.getElementById(id);
-   e.slideToggle('fast');
+function RadioToggle(ID) {
+	
+	var x = document.getElementById(ID);
+	
+		switch(x){
+		case "+":
+			svar = (tal1 + tal2);
+		break;
+		case "-":
+			svar = (tal1 - tal2);
+		break;
+		case "*":
+			svar = (tal1 * tal2);
+		break;
+		case "/":
+			svar = (tal1 / tal2);
+		break;
 }
-$(".faded").each(function(i) {
-    $(this).delay(i * 300).css('opacity',0).animate({'opacity': 1}, 500);
-});
