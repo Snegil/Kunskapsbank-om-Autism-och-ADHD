@@ -6,21 +6,3 @@ function FastToggle(ID) {
 		x.style.display = "none";
 	}
 } 
-function RadioToggle(ID) {
-	
-	var x = document.getElementById(ID);
-	
-		switch(x){
-		case "+":
-			svar = (tal1 + tal2);
-		break;
-		case "-":
-			svar = (tal1 - tal2);
-		break;
-		case "*":
-			svar = (tal1 * tal2);
-		break;
-		case "/":
-			svar = (tal1 / tal2);
-		break;
-}

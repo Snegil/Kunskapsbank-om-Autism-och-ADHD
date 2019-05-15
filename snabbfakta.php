@@ -66,34 +66,56 @@
 				</div>
 				
 				<div id="box-text">
-						<span id="ButtonContainer">
-							<a class="TextButton noselect" onclick="FastToggle('Autismtext')">Autism</a>
-							<a class="TextButton noselect BorderTop" onclick="FastToggle('ADHDtext')">ADHD</a>
-							<a class="TextButton noselect BorderTop" onclick="FastToggle('MyterOchFakta')">Myter & Fakta</a>
-						</span>
-						
-						<fieldset id="Autismtext">
-							<legend>Autism</legend>
+					<div id="SFThinkbox">
+						Alla är olika och detta är inte texter som ger definitivt svar till hur varje individ fungerar. 
+						Lär känna individen!
+					</div>
+					<!-- START Snabbfakta knapp container -->
+					<div id="SFButtonContainer">
+						<ul>
+							
+							<a onclick="FastToggle('AutismText')">
+								<li class="noselect">
+									Autism
+								</li>
+							</a>
+							
+							<a onclick="FastToggle('ADHDText')">
+								<li class="noselect">
+									ADHD
+								</li>
+							</a>
+							
+							<a onclick="FastToggle('MoF')">
+								<li class="noselect">
+									Myter & Fakta
+								</li>
+							</a>
+						</ul>
+					</div>
+					<!-- SLUT Snabbfakta knapp container -->
+					
+					
+					<!-- START Snabbfakta texterna -->
+					
+					<div id="SFTexter">
+						<div id="AutismText">
 							<?php
 								$myfilename = "SnabbAutism.txt";
 									if(file_exists($myfilename)){
 									echo file_get_contents($myfilename);
 							    }
 							?>
-						</fieldset>
-						
-						<fieldset id="ADHDtext">
-							<legend>ADHD</legend>
+						</div>
+						<div id="ADHDText">
 							<?php
 								$myfilename = "SnabbADHD.txt";
 									if(file_exists($myfilename)){
 									echo file_get_contents($myfilename);
 							    }
 							?>
-						</fieldset>
-						
-						<fieldset id="MyterOchFakta">
-							<legend>Myter och fakta</legend>
+						</div>
+						<div id="MoF">
 							<ul>
 									<li> <span class="Question">Kan autism behandlas?</span> </li>
 									<li> <span class="Answer">Ja! Med förståelse och respekt.</span> </li>
@@ -113,8 +135,11 @@
 									<span class="Source">
 									Källa: <a target="_blank" href="https://www.autism.se/myter_och_fakta">Autism och Asperger förbundet</a>
 									</span>
-								</ul>
-						</fieldset>
+							</ul>
+						</div>
+					</div>
+					
+					<!-- SLUT Snabbfakta texterna -->
 				</div>
 				
 						<!-- Början av footern -->

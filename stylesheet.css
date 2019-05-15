@@ -35,6 +35,11 @@ a {
 /* Styr loggan direkt, 65px höjd och tar 2s för en transform */
 #logo {
 	height: 65px;
+	transition-duration: 2s;
+}
+#logo:hover {
+	filter: brightness(200%);
+	-webkit-filter: brightness(200%);
 }
 /* Sätter en Float till höger så att autism bilden är till höger */
 #autismContainer {
@@ -94,7 +99,6 @@ a {
 	-webkit-box-shadow: inset 0 0 2px #000;
 	box-shadow: inset 0 0 2px #000;
 }
-
 /* Sätt dit en viss stil till dropdown knappen */
 .dropbtn {
 	background-color: #DBDBDB;
@@ -151,6 +155,7 @@ a {
 /* SLUT PÅ NAVIGATIONEN */
 
 /* BÖRJAN AV INNEHÅLL */
+
 /* Håller allt i rätt format på sidan */
 #Container {
 	position: absolute;
@@ -181,40 +186,59 @@ a {
 	font-size: 15px;
 	color: dimgray;
 }
+
+/* Start av Snabbfakta classer */
 /* Box-text är där allt ligger i under titeln styr bl.a padding */
 #box-text {
+	background-color: hotpink;
 	width: 100%;
-	padding: 0px 5px;
 	text-align: left;
 	margin: 5px 0px;
 }
-/* Håller fast knapparna till en bredd på 50px */
-#ButtonContainer {
-	width: 50px;
+#SFThinkbox {
+	text-align: center;
+	padding: 2px 0px;
 }
-/* Visar hur en knapp inuti buttoncontainer ska se ut */
-.TextButton {
-	background-color: #fff;
+#SFButtonContainer {
+	display: inline-block;
+	background-color: white;
+	margin: 6px;
+	top: -36px;
+	width: 120px;
+	box-shadow: 1px 0px 0px #000;
+}
+#SFButtonContainer li, ul {
+	margin: 0;
 	padding: 2px 5px;
-	width: 100px;
+	list-style: none;
+	font-size: auto;
 	text-align: center;
 }
-/* Vad som händer med Knapparna när man hovrar över de */
-.TextButton:hover {
-	background-color: #E5E5E5;
-	box-shadow: inset 0px 0px 2px #C4C4C4;
+#SFButtonContainer li:hover {
+	box-shadow: 0px 0px 3px #000;
+	background-color: #AAAAAA;
+	color: #696969;
+	cursor: pointer;
 }
-/* Ger knapparna en top border */
-.BorderTop {
-	border-top: 1px solid #d8d8d8;
+#SFTexter {
+	position: relative;
+	display: inline-block;
+	background-color: lime;
+	margin-top: 5px;
+	padding: 5px;
+	height: 200px;
+	width: 80%;
+	-webkit-box-shadow: inset 0 0 2px #000;
+	   -moz-box-shadow: inset 0 0 2px #000;
+	        box-shadow: inset 0 0 2px #000;
 }
-#Autismtext {
+#AutismText {
 	display: inline-block;
 }
-#ADHDtext {
+#ADHDText {
 	display: none;
 }
-#MyterOchFakta {
+#MoF {
 	display: none;
 }
 /* Frågan till myt eller fakta */
@@ -229,6 +253,9 @@ a {
 .Source {
 	font-size: 10px;
 }
+
+/* Slutet på Snabbfakta classer */
+
 /* För texten längst ner på sidan */
 #footer {
 	text-align: center;
