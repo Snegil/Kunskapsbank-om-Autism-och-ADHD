@@ -190,57 +190,31 @@ a {
 /* Start av Snabbfakta classer */
 /* Box-text är där allt ligger i under titeln styr bl.a padding */
 #box-text {
-	background-color: hotpink;
 	width: 100%;
 	text-align: left;
 	margin: 5px 0px;
 }
-#SFThinkbox {
-	text-align: center;
+
+#SFButtonContainer {
+	font-family: 'Exo 2', sans-serif;
+	background-color: #d8d8d8;
+	width: 100%;
+	height: 19px;
 	padding: 2px 0px;
 }
-#SFButtonContainer {
-	display: inline-block;
-	background-color: white;
-	margin: 6px;
-	top: -36px;
-	width: 120px;
-	box-shadow: 1px 0px 0px #000;
+#SFButtonContainer a {
+	background-color: #DBDBDB; 
+	height: 100%;
+	margin: 0px 2px;
+	padding: 2px 3px;
+	border-radius: 1px;
 }
-#SFButtonContainer li, ul {
-	margin: 0;
-	padding: 2px 5px;
-	list-style: none;
-	font-size: auto;
-	text-align: center;
-}
-#SFButtonContainer li:hover {
-	box-shadow: 0px 0px 3px #000;
-	background-color: #AAAAAA;
+#SFButtonContainer a:hover {
+	background-color: #9B9B9B;
 	color: #696969;
-	cursor: pointer;
 }
-#SFTexter {
-	position: relative;
-	display: inline-block;
-	background-color: lime;
-	margin-top: 5px;
-	padding: 5px;
-	height: 200px;
-	width: 80%;
-	-webkit-box-shadow: inset 0 0 2px #000;
-	   -moz-box-shadow: inset 0 0 2px #000;
-	        box-shadow: inset 0 0 2px #000;
-}
-#AutismText {
-	display: inline-block;
-}
-#ADHDText {
-	display: none;
-}
-#MoF {
-	display: none;
-}
+
+
 /* Frågan till myt eller fakta */
 .Question {
 	color: black;

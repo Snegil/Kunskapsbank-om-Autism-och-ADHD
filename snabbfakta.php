@@ -46,100 +46,27 @@
 				<div id="navigation">
 					<a class="button" href="index.php">Hem</a>
 					
-					<a class="button active" href="snabbfakta.php">Snabbfakta</a>
+					<a class="button active" href="snabbfakta.php">Erfarenheter</a>
 					
 					<div class="dropdown">
 					<a href="#" class="dropbtn"><i class="fas fa-angle-down"></i> </i>Diagnoser</a>
 						<div class="dropdown-content">
 							<a href="#">Autism</a>
 							<a href="#">ADHD</a>
-							<a href="#">Erfarenheter</a>
+							<a href="#">Snabbfakta</a>
 						</div>
 					</div> 
-					
 					<a class="button" href="index.php">Om</a>
 				</div>
 				
 				<!-- Introductions titeln -->
 				<div id="box-title">
-					Snabbfakta
+					Erfarenheter
 				</div>
 				
 				<div id="box-text">
-					<div id="SFThinkbox">
-						Alla är olika och detta är inte texter som ger definitivt svar till hur varje individ fungerar. 
-						Lär känna individen!
-					</div>
-					<!-- START Snabbfakta knapp container -->
-					<div id="SFButtonContainer">
-						<ul>
-							
-							<a onclick="FastToggle('AutismText')">
-								<li class="noselect">
-									Autism
-								</li>
-							</a>
-							
-							<a onclick="FastToggle('ADHDText')">
-								<li class="noselect">
-									ADHD
-								</li>
-							</a>
-							
-							<a onclick="FastToggle('MoF')">
-								<li class="noselect">
-									Myter & Fakta
-								</li>
-							</a>
-						</ul>
-					</div>
-					<!-- SLUT Snabbfakta knapp container -->
 					
 					
-					<!-- START Snabbfakta texterna -->
-					
-					<div id="SFTexter">
-						<div id="AutismText">
-							<?php
-								$myfilename = "SnabbAutism.txt";
-									if(file_exists($myfilename)){
-									echo file_get_contents($myfilename);
-							    }
-							?>
-						</div>
-						<div id="ADHDText">
-							<?php
-								$myfilename = "SnabbADHD.txt";
-									if(file_exists($myfilename)){
-									echo file_get_contents($myfilename);
-							    }
-							?>
-						</div>
-						<div id="MoF">
-							<ul>
-									<li> <span class="Question">Kan autism behandlas?</span> </li>
-									<li> <span class="Answer">Ja! Med förståelse och respekt.</span> </li>
-									<br />
-									<li> <span class="Question">Människor med autism vill inte ha social kontakt.</span> </li>
-									<li> <span class="Answer">Många med autism vill ha vänner och relationer, men kan ha svårt att veta hur.</span> </li>
-									<br />
-									<li> <span class="Question">Personer med autism har inga känslor.</span> </li>
-									<li> <span class="Answer">Personer med autism har känslor som alla andra, men kanske inte visar dem på ett sätt som stämmer med omgivningens förväntningar.</span> </li>
-									<br />
-									<li> <span class="Question">Barn som har autism växer ifrån det.</span> </li>
-									<li> <span class="Answer">Barn med autism växer upp till vuxna med autism.</span> </li>
-									<br />
-									<li> <span class="Question">Aspergers syndrom är ett påhitt för att ge ursäkter åt föräldrar till ouppfostrade barn.</span> </li>
-									<li> <span class="Answer">Aspergers syndrom är en utvecklingsrelaterad funktionsnedsättning med tydliga diagnostiska kriterier. Att inte ta hänsyn till funktionsnedsättningen kan vara ödeläggande för individen.</span> </li>
-									<br />
-									<span class="Source">
-									Källa: <a target="_blank" href="https://www.autism.se/myter_och_fakta">Autism och Asperger förbundet</a>
-									</span>
-							</ul>
-						</div>
-					</div>
-					
-					<!-- SLUT Snabbfakta texterna -->
 				</div>
 				
 						<!-- Början av footern -->
