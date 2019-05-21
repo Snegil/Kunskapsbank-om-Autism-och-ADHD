@@ -195,25 +195,43 @@ a {
 	margin: 5px 0px;
 }
 
-#SFButtonContainer {
-	font-family: 'Exo 2', sans-serif;
-	background-color: #d8d8d8;
-	width: 100%;
-	height: 19px;
-	padding: 2px 0px;
-}
-#SFButtonContainer a {
-	background-color: #DBDBDB; 
-	height: 100%;
-	margin: 0px 2px;
-	padding: 2px 3px;
-	border-radius: 1px;
-}
-#SFButtonContainer a:hover {
-	background-color: #9B9B9B;
-	color: #696969;
+ul, #ErfarenhetUL {
+  list-style-type: none;
 }
 
+#ErfarenhetUL {
+  margin: 0;
+  padding: 0;
+}
+
+.caret {
+  cursor: pointer;
+  -webkit-user-select: none; /* Safari 3.1+ */
+  -moz-user-select: none; /* Firefox 2+ */
+  -ms-user-select: none; /* IE 10+ */
+  user-select: none;
+}
+
+.caret::before {
+  content: "\25B6";
+  color: black;
+  display: inline-block;
+  margin-right: 6px;
+}
+
+.caret-down::before {
+  -ms-transform: rotate(90deg); /* IE 9 */
+  -webkit-transform: rotate(90deg); /* Safari */'
+  transform: rotate(90deg);  
+}
+
+.Nested {
+  display: none;
+}
+
+.NestActive {
+  display: block;
+}
 
 /* Frågan till myt eller fakta */
 .Question {

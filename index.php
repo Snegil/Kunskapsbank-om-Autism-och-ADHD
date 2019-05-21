@@ -44,23 +44,22 @@
 			<div id="box">
 				
 				<!-- Början av navigationen -->
-				<span id="navigation">
-					<a class="button active" href="index.php">Hem</a>
+				<div id="navigation">
+					<a class="button" href="index.php">Hem</a>
 					
-					<a class="button" href="snabbfakta.php">Snabbfakta</a>
+					<a class="button active" href="Erfarenheter.php">Erfarenheter</a>
 					
 					<div class="dropdown">
-						
 					<a href="#" class="dropbtn"><i class="fas fa-angle-down"></i> </i>Diagnoser</a>
 						<div class="dropdown-content">
 							<a href="#">Autism</a>
 							<a href="#">ADHD</a>
-							<a href="#">Erfarenheter</a>
+							<a href="#">Snabbfakta</a>
 						</div>
 					</div> 
 					<a class="button" href="index.php">Om</a>
-					
-				</span>
+				</div>
+				
 				<!-- Introductions titeln -->
 				<div id="box-title">
 					En webbsida skapad av en individ med Autism och Adhd!

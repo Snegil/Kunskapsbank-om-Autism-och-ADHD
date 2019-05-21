@@ -6,8 +6,8 @@
 		<meta name="author" content="Snegil">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta charset="utf-8" lang="sv">
-		<title>
-			
+		
+		<title>	
 		Kunskapsbank - Snabbfakta
 		</title>
 		
@@ -19,10 +19,12 @@
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 		<link rel="stylesheet" type="text/css" href="normalize.css">
 		
+		<!-- Lokala resurser -->
+		<link rel="stylesheet" href="jstree/dist/themes/default/style.min.css" />
+		
 		<!-- Mina Stilmallar -->
 		<link rel="stylesheet" href="stylesheet.css">
 		<link rel="stylesheet" href="adaptation.css">
-		<script src="javascript.js"></script>
 	</head>
 	<body>
 		
@@ -46,7 +48,7 @@
 				<div id="navigation">
 					<a class="button" href="index.php">Hem</a>
 					
-					<a class="button active" href="snabbfakta.php">Erfarenheter</a>
+					<a class="button active" href="Erfarenheter.php">Erfarenheter</a>
 					
 					<div class="dropdown">
 					<a href="#" class="dropbtn"><i class="fas fa-angle-down"></i> </i>Diagnoser</a>
@@ -66,7 +68,27 @@
 				
 				<div id="box-text">
 					
-					
+				 
+				  <div id="jstree">
+				   
+				    <ul>
+				      <li>Erfarenheter
+				        <ul>
+						  <ul>
+						  Den som har
+						  <li>Namn</li>	
+						  </ul>
+				          <li id="child_node_1">
+				          	Den som har
+				          </li>
+				          <li>Anhörig</li>
+				          <li>Lärare</li>
+				          <li>Psykolog</li>
+				        </ul>
+				      </li>
+				    </ul>
+				  </div>
+
 				</div>
 				
 						<!-- Början av footern -->
@@ -79,6 +101,25 @@
 						</div>
 				</div>	
 			</div>
+		<script src="javascript.js"></script>
+		<script src="jquery-3.4.0.js"></script>
+		<script src="jstree/dist/jstree.min.js"></script>
+		<script>
+			$(function () {
+			    // create an instance when the DOM is ready
+			    $('#jstree').jstree();
+			    // bind to events triggered on the tree
+			    $('#jstree').on("changed.jstree", function (e, data) {
+			      console.log(data.selected);
+			    });
+			    // interact with the tree - either way is OK
+			    $('button').on('click', function () {
+			      $('#jstree').jstree(true).select_node('child_node_1');
+			      $('#jstree').jstree('select_node', 'child_node_1');
+			      $.jstree.reference('#jstree').select_node('child_node_1');
+			    });
+			  });
+		</script>
 		
 	</body>
 </html>

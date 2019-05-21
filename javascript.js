@@ -5,4 +5,4 @@ function FastToggle(ID) {
 	} else {
 		x.style.display = "none";
 	}
-} 
+}
