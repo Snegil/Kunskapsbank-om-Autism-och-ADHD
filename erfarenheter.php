@@ -68,26 +68,20 @@
 				
 				<div id="box-text">
 					
-				 
-				  <div id="jstree">
-				   
-				    <ul>
-				      <li>Erfarenheter
-				        <ul>
-						  <ul>
-						  Den som har
-						  <li>Namn</li>	
-						  </ul>
-				          <li id="child_node_1">
-				          	Den som har
-				          </li>
-				          <li>Anhörig</li>
-				          <li>Lärare</li>
-				          <li>Psykolog</li>
-				        </ul>
-				      </li>
-				    </ul>
-				  </div>
+					<div id="jstree">
+
+					<!-- in this example the tree is populated from inline HTML -->
+					<ul>
+						<li>Root node 1
+							<ul>
+								<li id="child_node_1">Child node 1</li>
+								<li>Child node 2</li>
+							</ul>
+						</li>
+						<li>Root node 2</li>
+					</ul>
+						
+					</div>
 
 				</div>
 				
