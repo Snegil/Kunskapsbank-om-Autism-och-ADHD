@@ -72,6 +72,11 @@
 						&ndash;Utvecklarn
 				</div>
 				
+				<div class="center">
+				<!-- Youtube videon på föreläsning (Kommer senare) -->
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/BJhF0L7pfo8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+				
 					<!-- Början av footern -->
 					<div id="footer">
 						Pågående Projekt i tidig utveckling |

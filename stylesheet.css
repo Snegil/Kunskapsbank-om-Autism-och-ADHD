@@ -155,7 +155,9 @@ a {
 /* SLUT PÅ NAVIGATIONEN */
 
 /* BÖRJAN AV INNEHÅLL */
-
+.center {
+	text-align: center;
+}
 /* Håller allt i rätt format på sidan */
 #Container {
 	position: absolute;
