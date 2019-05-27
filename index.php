@@ -45,9 +45,9 @@
 				
 				<!-- Början av navigationen -->
 				<div id="navigation">
-					<a class="button" href="index.php">Hem</a>
+					<a class="button active" href="index.php">Hem</a>
 					
-					<a class="button active" href="Erfarenheter.php">Erfarenheter</a>
+					<a class="button" href="Erfarenheter.php">Erfarenheter</a>
 					
 					<div class="dropdown">
 					<a href="#" class="dropbtn"><i class="fas fa-angle-down"></i> </i>Diagnoser</a>
