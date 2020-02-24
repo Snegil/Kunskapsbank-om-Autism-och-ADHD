@@ -180,6 +180,7 @@ fieldset {
 	font-size: 15px;
 	color: dimgray;
 }
+<<<<<<< Updated upstream
 /* box-text innehåller #list och bestämmer att allt inom lådan är i mitten */
 #box-text {
 	padding: 5px;
@@ -223,6 +224,20 @@ fieldset {
 }
 #MoFText-file {
 	display: none;
+=======
+
+/* Start av Snabbfakta classer */
+
+/* Box-text är där allt ligger i under titeln styr bl.a padding */
+#box-text {
+	padding: 2px 2px;
+}
+
+.TextAreaBox {
+	background-color: dimgray;
+	max-height: 500px;
+	width: 30%;
+>>>>>>> Stashed changes
 }
 /* Frågan till myt eller fakta */
 .Question {
@@ -241,7 +256,7 @@ fieldset {
 	text-align: center;
 	position: relative;
 	font-size: 10px;
-	background-color: #d8d8d8; 
+	background-color: #d8d8d8;
 	color: #939393;
 	width: 100%;
 	min-height: 10px;
